@@ -9,7 +9,7 @@ it has no random components, and it has one main parameter, `m`.
 This repository contains the reference implementation and the benchmark code and raw results
 of the paper:
 
-> I. Eman, C. Alagöz, F. Aadil, M. Sardaraz. *mNN-Divisive: Deterministic Divisive Hierarchical
+> C. Alagöz, I. Eman, F. Aadil, M. Sardaraz. *mNN-Divisive: Deterministic Divisive Hierarchical
 > Clustering by Group-Wise Nearest-Neighbour Growing.* Submitted, 2026.
 
 ![mNN-Divisive on two moons](docs/example.png)
