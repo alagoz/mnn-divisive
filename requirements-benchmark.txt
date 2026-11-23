@@ -1,0 +1,6 @@
+-r requirements.txt
+pandas>=2.0
+genieclust>=1.1
+ucimlrepo>=0.0.7
+psutil>=5.9
+pytest>=7

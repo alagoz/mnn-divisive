@@ -1,0 +1,8 @@
+# mNN-Divisive (mnn_divisive.py)
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.2
+# optional: compiled back-end, much faster
+numba>=0.59
+# example figure
+matplotlib>=3.6

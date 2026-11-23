@@ -1,0 +1,8 @@
+date: 2026-11-23 09:45
+machine: Windows-10-10.0.26300-SP0
+processor: Intel64 Family 6 Model 167 Stepping 1, GenuineIntel
+cpu cores: 16
+RAM: 31.8 GB
+python 3.11.18, numpy 2.4.6, scikit-learn 1.9.1
+mNN backend: numba
+datasets: 90, algorithms: 16, replicates: 10, subsample frac: 0.8, max_n: 2000

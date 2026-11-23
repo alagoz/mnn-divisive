@@ -1,0 +1,38 @@
+Friedman chi2=308.45, p=9.76e-57, N=90 datasets, q=16 algorithms, Nemenyi CD(0.05)=2.43
+
+Average ranks (1=best):
+method
+Spectral (kNN graph)     4.79
+Genie (g=0.3)            4.97
+GMM                      5.94
+Agglo-Ward               7.16
+KMeans                   7.24
+Div-Ward                 7.72
+mNN-Divisive (m=10)      7.86
+KMedoids                 7.89
+Div-GMM                  7.98
+Div-KMeans               9.46
+Agglo-Average            9.92
+Div-KMedoids             9.92
+DIANA                   10.19
+Agglo-Complete          10.92
+Agglo-Single            11.75
+PDDP                    12.31
+
+mNN-Divisive (m=10) vs each reference (Wilcoxon signed-rank, Holm):
+           reference  wins  losses  ties  mean_dARI  p_raw  p_holm
+       Genie (g=0.3)    19      66     5    -0.2183 0.0000  0.0000
+Spectral (kNN graph)    19      63     8    -0.1828 0.0000  0.0000
+                 GMM    26      55     9    -0.1059 0.0001  0.0009
+             Div-GMM    44      40     6    -0.0564 0.2845  1.0000
+          Agglo-Ward    38      43     9    -0.0284 0.3164  1.0000
+              KMeans    37      44     9    -0.0202 0.5042  1.0000
+            Div-Ward    45      36     9    -0.0112 0.7536  1.0000
+            KMedoids    46      38     6    -0.0062 0.7999  1.0000
+          Div-KMeans    50      31     9     0.0117 0.0934  0.5602
+        Div-KMedoids    57      29     4     0.0312 0.0261  0.1825
+               DIANA    55      30     5     0.0360 0.0135  0.1079
+       Agglo-Average    53      26    11     0.0650 0.0004  0.0040
+      Agglo-Complete    65      20     5     0.0772 0.0000  0.0001
+                PDDP    67      20     3     0.1178 0.0000  0.0000
+        Agglo-Single    57      27     6     0.1411 0.0056  0.0507

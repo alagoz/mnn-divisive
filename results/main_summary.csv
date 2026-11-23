@@ -1,0 +1,1441 @@
+dataset,method,kind,ARI_mean,ARI_sd,Sil_mean,time_ms
+anisotropic,Agglo-Average,synthetic,0.5333,0.035,0.5351,7.7944
+anisotropic,Agglo-Complete,synthetic,0.4914,0.0627,0.5088,7.4026
+anisotropic,Agglo-Single,synthetic,0.0,0.0,0.2174,5.725
+anisotropic,Agglo-Ward,synthetic,0.5637,0.0658,0.5125,5.857
+anisotropic,DIANA,synthetic,0.6059,0.0144,0.53,20.0857
+anisotropic,Div-GMM,synthetic,0.985,0.0053,0.4578,40.3774
+anisotropic,Div-KMeans,synthetic,0.5947,0.013,0.5303,45.9923
+anisotropic,Div-KMedoids,synthetic,0.626,0.0152,0.5256,39.2846
+anisotropic,Div-Ward,synthetic,0.5637,0.0658,0.5125,11.9756
+anisotropic,GMM,synthetic,0.9842,0.0051,0.4574,30.6509
+anisotropic,Genie (g=0.3),synthetic,0.9592,0.0111,0.4625,0.7507
+anisotropic,KMeans,synthetic,0.5948,0.0144,0.5343,22.5447
+anisotropic,KMedoids,synthetic,0.6267,0.018,0.5334,26.5014
+anisotropic,PDDP,synthetic,0.5117,0.0101,0.4798,3.1009
+anisotropic,Spectral (kNN graph),synthetic,0.5064,0.1019,0.4439,11.565
+anisotropic,mNN-Divisive (m=10),synthetic,0.8839,0.0964,0.4609,19.1991
+banknote,Agglo-Average,uci,0.086,0.0474,0.3703,19.595
+banknote,Agglo-Complete,uci,0.0799,0.0229,0.3434,16.6731
+banknote,Agglo-Single,uci,0.0022,0.0055,0.1942,12.2157
+banknote,Agglo-Ward,uci,0.05,0.0189,0.3186,11.4622
+banknote,DIANA,uci,0.0101,0.0036,0.3298,26.7608
+banknote,Div-GMM,uci,0.0029,0.0018,0.3014,40.4894
+banknote,Div-KMeans,uci,0.0133,0.0044,0.3293,32.237
+banknote,Div-KMedoids,uci,0.0103,0.0049,0.33,56.4817
+banknote,Div-Ward,uci,0.05,0.0189,0.3186,18.331
+banknote,GMM,uci,0.0029,0.0019,0.3014,36.7383
+banknote,Genie (g=0.3),uci,0.9624,0.0038,0.2001,1.2329
+banknote,KMeans,uci,0.0132,0.0049,0.3293,28.4776
+banknote,KMedoids,uci,0.0103,0.0049,0.33,55.2082
+banknote,PDDP,uci,0.0451,0.0072,0.3182,4.6948
+banknote,Spectral (kNN graph),uci,0.2325,0.1856,0.2464,21.3541
+banknote,mNN-Divisive (m=10),uci,0.5667,0.4317,0.2273,30.2196
+blobs_balanced,Agglo-Average,synthetic,0.9962,0.0036,0.6878,8.9528
+blobs_balanced,Agglo-Complete,synthetic,0.9725,0.0489,0.6756,8.7291
+blobs_balanced,Agglo-Single,synthetic,0.2278,0.2941,0.1202,5.9348
+blobs_balanced,Agglo-Ward,synthetic,0.9979,0.0022,0.6881,7.6288
+blobs_balanced,DIANA,synthetic,0.9582,0.0056,0.6753,19.0762
+blobs_balanced,Div-GMM,synthetic,0.9992,0.0026,0.6883,28.1512
+blobs_balanced,Div-KMeans,synthetic,0.9958,0.002,0.6875,48.5042
+blobs_balanced,Div-KMedoids,synthetic,0.9864,0.0137,0.6829,36.5882
+blobs_balanced,Div-Ward,synthetic,0.9979,0.0022,0.6881,17.8342
+blobs_balanced,GMM,synthetic,1.0,0.0,0.6885,13.9132
+blobs_balanced,Genie (g=0.3),synthetic,1.0,0.0,0.6885,0.9767
+blobs_balanced,KMeans,synthetic,1.0,0.0,0.6885,20.0586
+blobs_balanced,KMedoids,synthetic,1.0,0.0,0.6885,11.2145
+blobs_balanced,PDDP,synthetic,0.8544,0.0055,0.6098,3.2488
+blobs_balanced,Spectral (kNN graph),synthetic,1.0,0.0,0.6885,13.5788
+blobs_balanced,mNN-Divisive (m=10),synthetic,0.9987,0.002,0.6882,17.7844
+blobs_imbalanced,Agglo-Average,synthetic,0.9892,0.0051,0.6243,10.2042
+blobs_imbalanced,Agglo-Complete,synthetic,0.9671,0.0574,0.6172,8.7822
+blobs_imbalanced,Agglo-Single,synthetic,0.2712,0.1323,0.5399,5.7018
+blobs_imbalanced,Agglo-Ward,synthetic,0.9892,0.0045,0.624,8.1357
+blobs_imbalanced,DIANA,synthetic,0.9796,0.0052,0.6228,13.6766
+blobs_imbalanced,Div-GMM,synthetic,0.402,0.0067,0.3568,38.552
+blobs_imbalanced,Div-KMeans,synthetic,0.3935,0.0024,0.3575,50.2616
+blobs_imbalanced,Div-KMedoids,synthetic,0.3934,0.0056,0.3605,63.7308
+blobs_imbalanced,Div-Ward,synthetic,0.5102,0.0735,0.3465,16.0726
+blobs_imbalanced,GMM,synthetic,0.9847,0.0034,0.6242,16.0888
+blobs_imbalanced,Genie (g=0.3),synthetic,0.4822,0.0723,0.368,0.7739
+blobs_imbalanced,KMeans,synthetic,0.9899,0.0018,0.6234,22.6663
+blobs_imbalanced,KMedoids,synthetic,0.4566,0.1948,0.4186,28.159
+blobs_imbalanced,PDDP,synthetic,0.1197,0.0066,0.2041,3.1518
+blobs_imbalanced,Spectral (kNN graph),synthetic,0.8341,0.1368,0.5724,13.8712
+blobs_imbalanced,mNN-Divisive (m=10),synthetic,0.8497,0.232,0.5348,23.5957
+dermatology,Agglo-Average,uci,0.6507,0.0276,0.2709,1.5776
+dermatology,Agglo-Complete,uci,0.5916,0.1235,0.2415,1.5106
+dermatology,Agglo-Single,uci,0.2739,0.026,0.1612,1.2071
+dermatology,Agglo-Ward,uci,0.8709,0.0972,0.2203,1.9299
+dermatology,DIANA,uci,0.5546,0.0924,0.2494,5.8455
+dermatology,Div-GMM,uci,0.7058,0.0574,0.1655,75.3696
+dermatology,Div-KMeans,uci,0.7859,0.1021,0.2225,85.135
+dermatology,Div-KMedoids,uci,0.8324,0.0257,0.2106,8.9938
+dermatology,Div-Ward,uci,0.7215,0.0256,0.2232,7.3924
+dermatology,GMM,uci,0.7237,0.0733,0.1972,58.6438
+dermatology,Genie (g=0.3),uci,0.6037,0.0826,0.1468,2.1179
+dermatology,KMeans,uci,0.7426,0.0703,0.228,20.6842
+dermatology,KMedoids,uci,0.7499,0.119,0.2041,3.1146
+dermatology,PDDP,uci,0.5626,0.0145,0.1185,2.3591
+dermatology,Spectral (kNN graph),uci,0.9091,0.0122,0.2209,6.1855
+dermatology,mNN-Divisive (m=10),uci,0.7604,0.0367,0.24,5.5347
+ecoli,Agglo-Average,uci,0.7187,0.0365,0.3774,1.4678
+ecoli,Agglo-Complete,uci,0.5932,0.0946,0.2875,1.4923
+ecoli,Agglo-Single,uci,0.0423,0.0028,0.1407,1.2219
+ecoli,Agglo-Ward,uci,0.5693,0.0873,0.2588,1.3176
+ecoli,DIANA,uci,0.6224,0.0958,0.3114,7.5845
+ecoli,Div-GMM,uci,0.357,0.0393,0.0998,145.683
+ecoli,Div-KMeans,uci,0.3816,0.0351,0.1838,105.7496
+ecoli,Div-KMedoids,uci,0.3488,0.0268,0.154,10.3152
+ecoli,Div-Ward,uci,0.4046,0.059,0.1893,6.2684
+ecoli,GMM,uci,0.6137,0.1096,0.1503,79.1418
+ecoli,Genie (g=0.3),uci,0.3799,0.0594,0.0635,0.4315
+ecoli,KMeans,uci,0.5164,0.0168,0.2665,23.208
+ecoli,KMedoids,uci,0.5023,0.107,0.2464,4.1886
+ecoli,PDDP,uci,0.3381,0.028,0.1181,1.3056
+ecoli,Spectral (kNN graph),uci,0.3933,0.034,0.2139,6.6779
+ecoli,mNN-Divisive (m=10),uci,0.5702,0.0531,0.1544,5.1893
+fcps/atom,Agglo-Average,fcps,0.026,0.0089,0.3804,7.8031
+fcps/atom,Agglo-Complete,fcps,0.1293,0.1068,0.3732,7.5112
+fcps/atom,Agglo-Single,fcps,1.0,0.0,0.3064,4.9611
+fcps/atom,Agglo-Ward,fcps,0.1251,0.0787,0.3733,6.4504
+fcps/atom,DIANA,fcps,0.0826,0.0354,0.3871,6.7647
+fcps/atom,Div-GMM,fcps,0.0584,0.0336,0.3401,37.6834
+fcps/atom,Div-KMeans,fcps,0.1738,0.0168,0.3915,31.144
+fcps/atom,Div-KMedoids,fcps,0.0939,0.0107,0.3677,26.4581
+fcps/atom,Div-Ward,fcps,0.1251,0.0787,0.3733,8.9272
+fcps/atom,GMM,fcps,0.0619,0.0336,0.3429,35.7875
+fcps/atom,Genie (g=0.3),fcps,1.0,0.0,0.3064,0.8318
+fcps/atom,KMeans,fcps,0.1746,0.0154,0.3916,28.2416
+fcps/atom,KMedoids,fcps,0.0939,0.0107,0.3677,21.5973
+fcps/atom,PDDP,fcps,0.0107,0.012,0.138,2.1138
+fcps/atom,Spectral (kNN graph),fcps,1.0,0.0,0.3064,14.3764
+fcps/atom,mNN-Divisive (m=10),fcps,0.2352,0.1636,0.3697,9.8144
+fcps/chainlink,Agglo-Average,fcps,0.0752,0.082,0.2762,10.7331
+fcps/chainlink,Agglo-Complete,fcps,0.0045,0.0082,0.268,9.9635
+fcps/chainlink,Agglo-Single,fcps,1.0,0.0,0.1544,7.4675
+fcps/chainlink,Agglo-Ward,fcps,0.0189,0.0531,0.27,9.34
+fcps/chainlink,DIANA,fcps,0.0002,0.0007,0.2727,17.2787
+fcps/chainlink,Div-GMM,fcps,0.8197,0.2884,0.177,32.1263
+fcps/chainlink,Div-KMeans,fcps,-0.0003,0.0012,0.2831,33.9286
+fcps/chainlink,Div-KMedoids,fcps,0.1641,0.0408,0.2692,34.2629
+fcps/chainlink,Div-Ward,fcps,0.0189,0.0531,0.27,12.4032
+fcps/chainlink,GMM,fcps,0.8182,0.288,0.1768,29.5625
+fcps/chainlink,Genie (g=0.3),fcps,1.0,0.0,0.1544,0.9453
+fcps/chainlink,KMeans,fcps,-0.0003,0.0015,0.2836,31.1024
+fcps/chainlink,KMedoids,fcps,0.1641,0.0408,0.2692,30.5785
+fcps/chainlink,PDDP,fcps,0.0715,0.0151,0.2592,2.7368
+fcps/chainlink,Spectral (kNN graph),fcps,1.0,0.0,0.1544,15.82
+fcps/chainlink,mNN-Divisive (m=10),fcps,0.2518,0.0831,0.1383,14.8166
+fcps/engytime,Agglo-Average,fcps,0.0019,0.0019,0.4186,53.2799
+fcps/engytime,Agglo-Complete,fcps,0.1279,0.2005,0.2731,53.7295
+fcps/engytime,Agglo-Single,fcps,0.0,0.0,0.4223,40.6094
+fcps/engytime,Agglo-Ward,fcps,0.893,0.0313,0.407,39.0036
+fcps/engytime,DIANA,fcps,0.9454,0.0203,0.4108,70.9624
+fcps/engytime,Div-GMM,fcps,0.9815,0.0126,0.4101,35.4713
+fcps/engytime,Div-KMeans,fcps,0.8429,0.0186,0.4126,30.4385
+fcps/engytime,Div-KMedoids,fcps,0.8527,0.0218,0.4129,265.9923
+fcps/engytime,Div-Ward,fcps,0.893,0.0313,0.407,53.3783
+fcps/engytime,GMM,fcps,0.9803,0.0133,0.4102,19.6149
+fcps/engytime,Genie (g=0.3),fcps,0.8952,0.0274,0.4071,1.794
+fcps/engytime,KMeans,fcps,0.8429,0.0183,0.4126,16.9101
+fcps/engytime,KMedoids,fcps,0.8527,0.0218,0.4129,254.4486
+fcps/engytime,PDDP,fcps,0.8606,0.0117,0.4121,14.0555
+fcps/engytime,Spectral (kNN graph),fcps,0.8458,0.0295,0.4121,59.0627
+fcps/engytime,mNN-Divisive (m=10),fcps,0.1331,0.1855,0.337,97.9465
+fcps/hepta,Agglo-Average,fcps,1.0,0.0,0.7017,1.0162
+fcps/hepta,Agglo-Complete,fcps,1.0,0.0,0.7017,1.0298
+fcps/hepta,Agglo-Single,fcps,1.0,0.0,0.7017,0.9125
+fcps/hepta,Agglo-Ward,fcps,1.0,0.0,0.7017,0.9802
+fcps/hepta,DIANA,fcps,0.9475,0.0845,0.6556,4.2033
+fcps/hepta,Div-GMM,fcps,0.989,0.0301,0.6938,64.4698
+fcps/hepta,Div-KMeans,fcps,1.0,0.0,0.7017,96.5621
+fcps/hepta,Div-KMedoids,fcps,1.0,0.0,0.7017,9.4196
+fcps/hepta,Div-Ward,fcps,1.0,0.0,0.7017,4.5792
+fcps/hepta,GMM,fcps,1.0,0.0,0.7017,16.7623
+fcps/hepta,Genie (g=0.3),fcps,1.0,0.0,0.7017,0.3436
+fcps/hepta,KMeans,fcps,1.0,0.0,0.7017,19.6242
+fcps/hepta,KMedoids,fcps,1.0,0.0,0.7017,3.3967
+fcps/hepta,PDDP,fcps,0.7781,0.0589,0.4779,0.9229
+fcps/hepta,Spectral (kNN graph),fcps,1.0,0.0,0.7017,5.5047
+fcps/hepta,mNN-Divisive (m=10),fcps,1.0,0.0,0.7017,2.772
+fcps/lsun,Agglo-Average,fcps,0.4223,0.0995,0.5082,2.1263
+fcps/lsun,Agglo-Complete,fcps,0.3956,0.0985,0.5092,2.1267
+fcps/lsun,Agglo-Single,fcps,0.8575,0.2295,0.3369,1.6621
+fcps/lsun,Agglo-Ward,fcps,0.4603,0.1,0.5099,1.9857
+fcps/lsun,DIANA,fcps,0.5156,0.0209,0.4955,4.9332
+fcps/lsun,Div-GMM,fcps,0.6832,0.2736,0.4256,34.6697
+fcps/lsun,Div-KMeans,fcps,0.3742,0.019,0.5157,37.7809
+fcps/lsun,Div-KMedoids,fcps,0.3907,0.0322,0.4923,8.6053
+fcps/lsun,Div-Ward,fcps,0.4603,0.1,0.5099,4.1178
+fcps/lsun,GMM,fcps,1.0,0.0,0.4328,48.1615
+fcps/lsun,Genie (g=0.3),fcps,1.0,0.0,0.4328,0.4408
+fcps/lsun,KMeans,fcps,0.4147,0.014,0.5328,20.7393
+fcps/lsun,KMedoids,fcps,0.4468,0.0195,0.5311,5.4017
+fcps/lsun,PDDP,fcps,0.3111,0.0218,0.3041,0.9237
+fcps/lsun,Spectral (kNN graph),fcps,1.0,0.0,0.4328,6.8178
+fcps/lsun,mNN-Divisive (m=10),fcps,0.6659,0.2535,0.4244,3.1846
+fcps/target,Agglo-Average,fcps,0.1509,0.0317,0.3938,6.4925
+fcps/target,Agglo-Complete,fcps,0.3782,0.0874,0.4502,6.881
+fcps/target,Agglo-Single,fcps,1.0,0.0,0.2959,4.6396
+fcps/target,Agglo-Ward,fcps,0.6403,0.0018,0.5674,5.8151
+fcps/target,DIANA,fcps,0.2173,0.0249,0.4075,22.6295
+fcps/target,Div-GMM,fcps,0.4283,0.1276,0.307,110.5852
+fcps/target,Div-KMeans,fcps,0.3558,0.0028,0.2646,107.4434
+fcps/target,Div-KMedoids,fcps,0.3491,0.0228,0.2736,57.7762
+fcps/target,Div-Ward,fcps,0.3753,0.0313,0.2949,21.1232
+fcps/target,GMM,fcps,0.6556,0.0079,0.535,78.3656
+fcps/target,Genie (g=0.3),fcps,0.4419,0.0483,0.306,0.7332
+fcps/target,KMeans,fcps,0.6361,0.0009,0.5833,30.368
+fcps/target,KMedoids,fcps,0.6136,0.0809,0.5574,18.4824
+fcps/target,PDDP,fcps,0.1176,0.0144,0.153,3.0727
+fcps/target,Spectral (kNN graph),fcps,0.3797,0.0163,0.3629,13.3329
+fcps/target,mNN-Divisive (m=10),fcps,0.3904,0.0297,0.1939,20.5672
+fcps/tetra,Agglo-Average,fcps,0.9884,0.0179,0.5012,2.1132
+fcps/tetra,Agglo-Complete,fcps,0.9755,0.0228,0.498,2.0864
+fcps/tetra,Agglo-Single,fcps,0.3178,0.2476,-0.0837,1.5478
+fcps/tetra,Agglo-Ward,fcps,0.9909,0.0131,0.5018,2.1371
+fcps/tetra,DIANA,fcps,0.881,0.1027,0.4645,7.7674
+fcps/tetra,Div-GMM,fcps,0.9967,0.0058,0.5033,37.6195
+fcps/tetra,Div-KMeans,fcps,0.9244,0.0332,0.479,55.7599
+fcps/tetra,Div-KMedoids,fcps,0.8297,0.1327,0.4202,9.5704
+fcps/tetra,Div-Ward,fcps,0.9909,0.0131,0.5018,5.4215
+fcps/tetra,GMM,fcps,1.0,0.0,0.504,15.2035
+fcps/tetra,Genie (g=0.3),fcps,0.9975,0.004,0.5036,0.4782
+fcps/tetra,KMeans,fcps,1.0,0.0,0.504,20.5428
+fcps/tetra,KMedoids,fcps,1.0,0.0,0.504,4.9437
+fcps/tetra,PDDP,fcps,0.6338,0.1038,0.3215,1.0246
+fcps/tetra,Spectral (kNN graph),fcps,1.0,0.0,0.504,7.2363
+fcps/tetra,mNN-Divisive (m=10),fcps,0.9885,0.0145,0.5017,4.3457
+fcps/twodiamonds,Agglo-Average,fcps,0.875,0.1986,0.4044,7.4142
+fcps/twodiamonds,Agglo-Complete,fcps,0.0289,0.038,0.285,7.2124
+fcps/twodiamonds,Agglo-Single,fcps,0.0002,0.0003,0.0887,5.1287
+fcps/twodiamonds,Agglo-Ward,fcps,0.6981,0.326,0.3734,6.1569
+fcps/twodiamonds,DIANA,fcps,1.0,0.0,0.4244,11.7932
+fcps/twodiamonds,Div-GMM,fcps,0.9046,0.3016,0.4135,18.0588
+fcps/twodiamonds,Div-KMeans,fcps,1.0,0.0,0.4244,26.9648
+fcps/twodiamonds,Div-KMedoids,fcps,0.9994,0.002,0.4244,26.1065
+fcps/twodiamonds,Div-Ward,fcps,0.6981,0.326,0.3734,8.2604
+fcps/twodiamonds,GMM,fcps,1.0,0.0,0.4244,15.3113
+fcps/twodiamonds,Genie (g=0.3),fcps,0.9721,0.0146,0.4218,0.7154
+fcps/twodiamonds,KMeans,fcps,1.0,0.0,0.4244,23.3911
+fcps/twodiamonds,KMedoids,fcps,0.9994,0.002,0.4244,22.0652
+fcps/twodiamonds,PDDP,fcps,0.2984,0.0128,0.3255,2.0397
+fcps/twodiamonds,Spectral (kNN graph),fcps,0.9994,0.002,0.4244,12.6799
+fcps/twodiamonds,mNN-Divisive (m=10),fcps,0.8377,0.311,0.3957,9.5841
+fcps/wingnut,Agglo-Average,fcps,1.0,0.0,0.4104,10.9329
+fcps/wingnut,Agglo-Complete,fcps,0.8172,0.1354,0.3942,10.0373
+fcps/wingnut,Agglo-Single,fcps,0.6,0.5164,0.2779,6.9882
+fcps/wingnut,Agglo-Ward,fcps,0.9086,0.1391,0.4015,9.2601
+fcps/wingnut,DIANA,fcps,0.728,0.0355,0.4351,16.9616
+fcps/wingnut,Div-GMM,fcps,0.8484,0.0145,0.4308,23.5519
+fcps/wingnut,Div-KMeans,fcps,0.6708,0.0162,0.438,29.907
+fcps/wingnut,Div-KMedoids,fcps,0.5137,0.0212,0.4327,48.4865
+fcps/wingnut,Div-Ward,fcps,0.9086,0.1391,0.4015,12.67
+fcps/wingnut,GMM,fcps,0.8484,0.0148,0.4308,18.9484
+fcps/wingnut,Genie (g=0.3),fcps,0.999,0.0021,0.4105,0.8586
+fcps/wingnut,KMeans,fcps,0.6708,0.0162,0.438,25.1561
+fcps/wingnut,KMedoids,fcps,0.5137,0.0212,0.4327,43.36
+fcps/wingnut,PDDP,fcps,0.5908,0.0089,0.4356,2.8512
+fcps/wingnut,Spectral (kNN graph),fcps,0.9784,0.0098,0.4144,16.8962
+fcps/wingnut,mNN-Divisive (m=10),fcps,0.5549,0.3838,0.3391,15.1556
+glass,Agglo-Average,uci,0.022,0.0111,0.4542,0.9084
+glass,Agglo-Complete,uci,0.1172,0.0942,0.356,0.9228
+glass,Agglo-Single,uci,0.0194,0.0069,0.4316,0.7303
+glass,Agglo-Ward,uci,0.1875,0.0379,0.3189,0.8614
+glass,DIANA,uci,0.1199,0.087,0.4232,2.1465
+glass,Div-GMM,uci,0.1456,0.0266,0.0878,104.698
+glass,Div-KMeans,uci,0.1597,0.0268,0.1953,82.3657
+glass,Div-KMedoids,uci,0.1467,0.0253,0.1596,6.9486
+glass,Div-Ward,uci,0.1561,0.0252,0.1906,4.7065
+glass,GMM,uci,0.1428,0.0199,0.2428,53.5144
+glass,Genie (g=0.3),uci,0.1373,0.0313,0.1157,0.3713
+glass,KMeans,uci,0.1514,0.0177,0.3238,16.5314
+glass,KMedoids,uci,0.1449,0.0231,0.3123,3.2335
+glass,PDDP,uci,0.1536,0.0141,0.0786,0.8266
+glass,Spectral (kNN graph),uci,0.1861,0.0327,0.1564,5.0208
+glass,mNN-Divisive (m=10),uci,0.1712,0.0163,0.3272,3.4431
+graves/dense,Agglo-Average,graves,0.8743,0.1365,0.6665,1.0558
+graves/dense,Agglo-Complete,graves,0.4729,0.1973,0.5963,1.0462
+graves/dense,Agglo-Single,graves,0.0004,0.0004,0.4089,0.9312
+graves/dense,Agglo-Ward,graves,0.9506,0.0327,0.6637,1.0103
+graves/dense,DIANA,graves,0.6955,0.0213,0.671,1.7058
+graves/dense,Div-GMM,graves,1.0,0.0,0.6507,14.9897
+graves/dense,Div-KMeans,graves,0.7513,0.0296,0.675,15.7937
+graves/dense,Div-KMedoids,graves,0.7935,0.0386,0.6765,2.5076
+graves/dense,Div-Ward,graves,0.9506,0.0327,0.6637,1.4255
+graves/dense,GMM,graves,1.0,0.0,0.6507,13.8788
+graves/dense,Genie (g=0.3),graves,0.9553,0.0157,0.6634,0.2917
+graves/dense,KMeans,graves,0.7513,0.0296,0.675,15.0923
+graves/dense,KMedoids,graves,0.7935,0.0386,0.6765,2.3239
+graves/dense,PDDP,graves,0.8318,0.0241,0.676,0.4831
+graves/dense,Spectral (kNN graph),graves,0.9528,0.0078,0.6639,5.3304
+graves/dense,mNN-Divisive (m=10),graves,0.9284,0.0138,0.6699,0.7719
+graves/fuzzyx,Agglo-Average,graves,0.6786,0.0926,0.5135,11.7778
+graves/fuzzyx,Agglo-Complete,graves,0.6757,0.0982,0.4847,10.9343
+graves/fuzzyx,Agglo-Single,graves,-0.0,0.0,-0.0641,7.4195
+graves/fuzzyx,Agglo-Ward,graves,0.7443,0.0951,0.5127,9.1516
+graves/fuzzyx,DIANA,graves,0.8753,0.0206,0.4339,31.9858
+graves/fuzzyx,Div-GMM,graves,0.8965,0.0377,0.4065,76.9298
+graves/fuzzyx,Div-KMeans,graves,0.9005,0.0106,0.4161,83.7424
+graves/fuzzyx,Div-KMedoids,graves,0.7204,0.0618,0.5287,84.3045
+graves/fuzzyx,Div-Ward,graves,0.737,0.113,0.4912,18.5447
+graves/fuzzyx,GMM,graves,0.8774,0.036,0.4874,44.5603
+graves/fuzzyx,Genie (g=0.3),graves,0.6024,0.0856,0.4686,0.8597
+graves/fuzzyx,KMeans,graves,0.621,0.0146,0.5513,29.1647
+graves/fuzzyx,KMedoids,graves,0.6139,0.0209,0.5508,22.8418
+graves/fuzzyx,PDDP,graves,0.4075,0.0172,0.0814,4.8867
+graves/fuzzyx,Spectral (kNN graph),graves,0.5861,0.0141,0.5472,17.2754
+graves/fuzzyx,mNN-Divisive (m=10),graves,0.6569,0.1183,0.3537,34.5282
+graves/line,Agglo-Average,graves,-0.0188,0.0527,0.5565,1.3276
+graves/line,Agglo-Complete,graves,-0.0627,0.0321,0.5062,1.3185
+graves/line,Agglo-Single,graves,1.0,0.0,0.1706,1.1597
+graves/line,Agglo-Ward,graves,-0.0277,0.0376,0.5519,1.2758
+graves/line,DIANA,graves,0.0056,0.0098,0.5655,2.0485
+graves/line,Div-GMM,graves,1.0,0.0,0.1706,27.1925
+graves/line,Div-KMeans,graves,-0.0139,0.0094,0.5699,16.827
+graves/line,Div-KMedoids,graves,-0.0159,0.0145,0.57,4.099
+graves/line,Div-Ward,graves,-0.0277,0.0376,0.5519,1.7611
+graves/line,GMM,graves,1.0,0.0,0.1706,24.9689
+graves/line,Genie (g=0.3),graves,0.8896,0.349,0.1968,0.3274
+graves/line,KMeans,graves,-0.0139,0.0094,0.5699,15.9815
+graves/line,KMedoids,graves,-0.0159,0.0145,0.57,3.6577
+graves/line,PDDP,graves,0.0372,0.01,0.5532,0.5694
+graves/line,Spectral (kNN graph),graves,1.0,0.0,0.1706,5.7769
+graves/line,mNN-Divisive (m=10),graves,-0.0286,0.0735,0.504,1.0793
+graves/parabolic,Agglo-Average,graves,0.6021,0.0838,0.5142,11.6903
+graves/parabolic,Agglo-Complete,graves,0.6007,0.0817,0.5116,10.7183
+graves/parabolic,Agglo-Single,graves,0.0,0.0001,0.1442,7.69
+graves/parabolic,Agglo-Ward,graves,0.5907,0.041,0.4921,9.7212
+graves/parabolic,DIANA,graves,0.5618,0.0226,0.5304,16.9372
+graves/parabolic,Div-GMM,graves,0.5417,0.0218,0.5298,20.3779
+graves/parabolic,Div-KMeans,graves,0.5535,0.0208,0.5303,29.3494
+graves/parabolic,Div-KMedoids,graves,0.5727,0.0215,0.5299,29.3593
+graves/parabolic,Div-Ward,graves,0.5907,0.041,0.4921,12.9359
+graves/parabolic,GMM,graves,0.5421,0.0232,0.5298,16.4004
+graves/parabolic,Genie (g=0.3),graves,0.8591,0.0914,0.4463,0.8713
+graves/parabolic,KMeans,graves,0.5535,0.0208,0.5303,24.5061
+graves/parabolic,KMedoids,graves,0.5727,0.0215,0.5299,25.4861
+graves/parabolic,PDDP,graves,0.5543,0.0197,0.5302,2.9988
+graves/parabolic,Spectral (kNN graph),graves,0.603,0.0212,0.5258,16.5908
+graves/parabolic,mNN-Divisive (m=10),graves,0.3782,0.3472,0.338,15.022
+graves/ring,Agglo-Average,graves,0.1143,0.0362,0.3939,11.3211
+graves/ring,Agglo-Complete,graves,0.198,0.1161,0.3858,10.8424
+graves/ring,Agglo-Single,graves,1.0,0.0,0.2678,7.74
+graves/ring,Agglo-Ward,graves,0.1473,0.066,0.3957,9.1801
+graves/ring,DIANA,graves,0.1756,0.0076,0.4057,11.2602
+graves/ring,Div-GMM,graves,0.0378,0.0047,0.3416,40.8564
+graves/ring,Div-KMeans,graves,0.016,0.0525,0.2742,33.3556
+graves/ring,Div-KMedoids,graves,0.0958,0.0669,0.3596,32.8677
+graves/ring,Div-Ward,graves,0.1473,0.066,0.3957,12.5698
+graves/ring,GMM,graves,0.0339,0.0037,0.3304,33.5503
+graves/ring,Genie (g=0.3),graves,1.0,0.0,0.2678,0.9146
+graves/ring,KMeans,graves,0.0519,0.0831,0.3044,28.7594
+graves/ring,KMedoids,graves,0.0958,0.0669,0.3596,28.6315
+graves/ring,PDDP,graves,-0.0008,0.0007,0.2579,3.0106
+graves/ring,Spectral (kNN graph),graves,1.0,0.0,0.2678,15.1169
+graves/ring,mNN-Divisive (m=10),graves,0.2282,0.0603,0.395,15.0617
+graves/ring_noisy,Agglo-Average,graves,0.0,0.0,0.5572,13.139
+graves/ring_noisy,Agglo-Complete,graves,0.2455,0.1426,0.3733,12.8677
+graves/ring_noisy,Agglo-Single,graves,0.0,0.0,0.5769,8.4005
+graves/ring_noisy,Agglo-Ward,graves,0.1404,0.0567,0.3879,10.9645
+graves/ring_noisy,DIANA,graves,0.1777,0.0121,0.3965,12.2702
+graves/ring_noisy,Div-GMM,graves,0.0271,0.0108,0.3003,42.4637
+graves/ring_noisy,Div-KMeans,graves,0.1004,0.0869,0.3427,31.5902
+graves/ring_noisy,Div-KMedoids,graves,0.1346,0.012,0.3945,35.2397
+graves/ring_noisy,Div-Ward,graves,0.1404,0.0567,0.3879,14.1905
+graves/ring_noisy,GMM,graves,0.0285,0.005,0.3005,38.4315
+graves/ring_noisy,Genie (g=0.3),graves,1.0,0.0,0.2471,0.956
+graves/ring_noisy,KMeans,graves,0.0672,0.0872,0.315,26.8023
+graves/ring_noisy,KMedoids,graves,0.1346,0.012,0.3945,31.2665
+graves/ring_noisy,PDDP,graves,-0.0009,0.0004,0.2563,3.3351
+graves/ring_noisy,Spectral (kNN graph),graves,1.0,0.0,0.2472,16.9292
+graves/ring_noisy,mNN-Divisive (m=10),graves,0.2928,0.1357,0.3781,16.2737
+graves/ring_outliers,Agglo-Average,graves,0.5088,0.1143,0.5079,11.8426
+graves/ring_outliers,Agglo-Complete,graves,0.4124,0.0568,0.4659,10.9717
+graves/ring_outliers,Agglo-Single,graves,1.0,0.0,0.238,7.1885
+graves/ring_outliers,Agglo-Ward,graves,0.6345,0.0054,0.5475,9.6728
+graves/ring_outliers,DIANA,graves,0.3495,0.0101,0.4545,23.8214
+graves/ring_outliers,Div-GMM,graves,0.5601,0.077,0.4481,122.9398
+graves/ring_outliers,Div-KMeans,graves,0.4194,0.0009,0.3339,102.0309
+graves/ring_outliers,Div-KMedoids,graves,0.3831,0.0302,0.3212,91.9091
+graves/ring_outliers,Div-Ward,graves,0.4699,0.0844,0.3642,24.9015
+graves/ring_outliers,GMM,graves,0.6286,0.0027,0.5494,46.6526
+graves/ring_outliers,Genie (g=0.3),graves,0.5791,0.08,0.4298,0.8971
+graves/ring_outliers,KMeans,graves,0.625,0.0004,0.571,33.7445
+graves/ring_outliers,KMedoids,graves,0.6165,0.0268,0.5619,37.7032
+graves/ring_outliers,PDDP,graves,0.0748,0.0042,0.1389,4.9811
+graves/ring_outliers,Spectral (kNN graph),graves,0.4167,0.0015,0.3349,17.0304
+graves/ring_outliers,mNN-Divisive (m=10),graves,0.417,0.1695,0.2597,59.3371
+graves/zigzag,Agglo-Average,graves,0.3038,0.0251,0.4608,1.3143
+graves/zigzag,Agglo-Complete,graves,0.3192,0.0558,0.4455,1.2593
+graves/zigzag,Agglo-Single,graves,1.0,0.0,0.1434,1.0552
+graves/zigzag,Agglo-Ward,graves,0.3292,0.034,0.4542,1.1309
+graves/zigzag,DIANA,graves,0.3011,0.0101,0.4223,3.0945
+graves/zigzag,Div-GMM,graves,0.2446,0.011,0.4114,44.3425
+graves/zigzag,Div-KMeans,graves,0.3234,0.0048,0.439,32.4116
+graves/zigzag,Div-KMedoids,graves,0.3022,0.0104,0.4393,5.3811
+graves/zigzag,Div-Ward,graves,0.3335,0.0597,0.4473,2.6721
+graves/zigzag,GMM,graves,0.3968,0.014,0.4203,38.7141
+graves/zigzag,Genie (g=0.3),graves,1.0,0.0,0.1434,0.3501
+graves/zigzag,KMeans,graves,0.3416,0.0106,0.4778,16.3948
+graves/zigzag,KMedoids,graves,0.3064,0.011,0.4708,3.628
+graves/zigzag,PDDP,graves,0.2835,0.0109,0.3581,0.6596
+graves/zigzag,Spectral (kNN graph),graves,1.0,0.0,0.1434,5.5405
+graves/zigzag,mNN-Divisive (m=10),graves,0.3519,0.1468,0.2955,1.7006
+graves/zigzag_noisy,Agglo-Average,graves,0.2836,0.0176,0.4613,1.5579
+graves/zigzag_noisy,Agglo-Complete,graves,0.3199,0.0583,0.4299,1.4843
+graves/zigzag_noisy,Agglo-Single,graves,0.1089,0.2296,-0.0717,1.203
+graves/zigzag_noisy,Agglo-Ward,graves,0.2918,0.02,0.4565,1.424
+graves/zigzag_noisy,DIANA,graves,0.3244,0.0469,0.4029,3.9508
+graves/zigzag_noisy,Div-GMM,graves,0.2532,0.0193,0.4328,37.8956
+graves/zigzag_noisy,Div-KMeans,graves,0.3088,0.0094,0.4246,31.0579
+graves/zigzag_noisy,Div-KMedoids,graves,0.2813,0.0151,0.4162,6.3269
+graves/zigzag_noisy,Div-Ward,graves,0.3055,0.0244,0.4456,2.9591
+graves/zigzag_noisy,GMM,graves,0.3159,0.0759,0.4029,28.4937
+graves/zigzag_noisy,Genie (g=0.3),graves,0.6857,0.2294,0.2287,0.3878
+graves/zigzag_noisy,KMeans,graves,0.3225,0.0069,0.4726,16.2027
+graves/zigzag_noisy,KMedoids,graves,0.3075,0.0125,0.4695,3.9362
+graves/zigzag_noisy,PDDP,graves,0.2682,0.0159,0.3391,0.6528
+graves/zigzag_noisy,Spectral (kNN graph),graves,0.4685,0.0252,0.3278,5.9896
+graves/zigzag_noisy,mNN-Divisive (m=10),graves,0.4307,0.0438,0.2982,2.1008
+graves/zigzag_outliers,Agglo-Average,graves,0.0,0.0,0.4337,1.4766
+graves/zigzag_outliers,Agglo-Complete,graves,0.2669,0.1241,0.3935,1.4172
+graves/zigzag_outliers,Agglo-Single,graves,0.0,0.0,0.4337,1.2194
+graves/zigzag_outliers,Agglo-Ward,graves,0.3524,0.0196,0.4353,1.4069
+graves/zigzag_outliers,DIANA,graves,0.2402,0.092,0.3583,3.0178
+graves/zigzag_outliers,Div-GMM,graves,0.3925,0.0403,0.3984,37.7761
+graves/zigzag_outliers,Div-KMeans,graves,0.3421,0.0194,0.4305,32.9573
+graves/zigzag_outliers,Div-KMedoids,graves,0.3185,0.0274,0.3839,6.6178
+graves/zigzag_outliers,Div-Ward,graves,0.3345,0.0382,0.4215,2.8663
+graves/zigzag_outliers,GMM,graves,0.5602,0.0821,0.3058,42.8939
+graves/zigzag_outliers,Genie (g=0.3),graves,1.0,0.0,0.1008,0.3693
+graves/zigzag_outliers,KMeans,graves,0.3535,0.0134,0.4455,17.24
+graves/zigzag_outliers,KMedoids,graves,0.3409,0.0273,0.4081,4.3986
+graves/zigzag_outliers,PDDP,graves,0.2306,0.0332,0.2726,0.6906
+graves/zigzag_outliers,Spectral (kNN graph),graves,0.7691,0.2433,0.1515,6.0311
+graves/zigzag_outliers,mNN-Divisive (m=10),graves,0.1639,0.1522,0.3409,2.3263
+ionosphere,Agglo-Average,uci,0.0055,0.0,0.4021,1.7669
+ionosphere,Agglo-Complete,uci,0.0648,0.0613,0.2518,1.7213
+ionosphere,Agglo-Single,uci,0.0055,0.0,0.3992,1.404
+ionosphere,Agglo-Ward,uci,0.1504,0.0568,0.255,2.0205
+ionosphere,DIANA,uci,0.0124,0.0111,0.3883,0.9824
+ionosphere,Div-GMM,uci,0.2691,0.0298,0.2432,40.4673
+ionosphere,Div-KMeans,uci,0.1631,0.0234,0.2681,23.9004
+ionosphere,Div-KMedoids,uci,0.1628,0.0249,0.265,5.6291
+ionosphere,Div-Ward,uci,0.1504,0.0568,0.255,3.1152
+ionosphere,GMM,uci,0.2691,0.0298,0.2428,34.3184
+ionosphere,Genie (g=0.3),uci,0.2339,0.1111,0.2238,2.1742
+ionosphere,KMeans,uci,0.1631,0.0229,0.2681,18.521
+ionosphere,KMedoids,uci,0.1628,0.0249,0.265,3.7308
+ionosphere,PDDP,uci,0.1512,0.0278,0.263,1.1598
+ionosphere,Spectral (kNN graph),uci,0.0184,0.0609,0.2426,5.8105
+ionosphere,mNN-Divisive (m=10),uci,0.0072,0.0027,0.3277,1.7402
+iris,Agglo-Average,uci,0.5525,0.0127,0.4818,0.7323
+iris,Agglo-Complete,uci,0.4044,0.1256,0.3688,0.7009
+iris,Agglo-Single,uci,0.5551,0.0,0.5021,0.6264
+iris,Agglo-Ward,uci,0.6455,0.0602,0.4532,0.6674
+iris,DIANA,uci,0.6067,0.0253,0.4614,2.2082
+iris,Div-GMM,uci,0.9019,0.0647,0.3744,49.8566
+iris,Div-KMeans,uci,0.6007,0.0209,0.4595,33.2118
+iris,Div-KMedoids,uci,0.6557,0.0343,0.4518,3.6594
+iris,Div-Ward,uci,0.6455,0.0602,0.4532,1.978
+iris,GMM,uci,0.9107,0.061,0.3765,36.4774
+iris,Genie (g=0.3),uci,0.6692,0.063,0.4215,0.2517
+iris,KMeans,uci,0.6064,0.021,0.4588,13.9309
+iris,KMedoids,uci,0.6517,0.0338,0.4545,1.7137
+iris,PDDP,uci,0.5167,0.0182,0.4047,0.456
+iris,Spectral (kNN graph),uci,0.4703,0.0969,0.4119,3.9846
+iris,mNN-Divisive (m=10),uci,0.5639,0.0121,0.4475,0.9244
+landsat,Agglo-Average,uci,0.3145,0.0255,0.3627,67.6025
+landsat,Agglo-Complete,uci,0.3207,0.0833,0.2785,65.8421
+landsat,Agglo-Single,uci,0.0011,0.0002,-0.0331,40.6306
+landsat,Agglo-Ward,uci,0.5203,0.0268,0.3249,67.527
+landsat,DIANA,uci,0.3978,0.0542,0.3378,139.084
+landsat,Div-GMM,uci,0.5175,0.0186,0.2117,421.6894
+landsat,Div-KMeans,uci,0.488,0.0264,0.2991,162.83
+landsat,Div-KMedoids,uci,0.521,0.0099,0.3099,340.1734
+landsat,Div-Ward,uci,0.5119,0.0207,0.3157,173.0708
+landsat,GMM,uci,0.4793,0.0086,0.0929,364.098
+landsat,Genie (g=0.3),uci,0.5843,0.0535,0.2822,40.3381
+landsat,KMeans,uci,0.5351,0.006,0.3548,34.9417
+landsat,KMedoids,uci,0.5381,0.0188,0.3458,127.173
+landsat,PDDP,uci,0.4073,0.0252,0.2163,37.827
+landsat,Spectral (kNN graph),uci,0.5136,0.0487,0.3108,69.1915
+landsat,mNN-Divisive (m=10),uci,0.5669,0.1282,0.2,253.1978
+optdigits,Agglo-Average,uci,0.0,0.0001,0.5149,65.7866
+optdigits,Agglo-Complete,uci,0.0007,0.0003,0.3471,63.6511
+optdigits,Agglo-Single,uci,-0.0,0.0,0.5366,37.3089
+optdigits,Agglo-Ward,uci,0.5464,0.0419,0.1149,87.1231
+optdigits,DIANA,uci,0.0284,0.0414,0.2478,293.7753
+optdigits,Div-GMM,uci,0.4287,0.0686,0.0548,832.6483
+optdigits,Div-KMeans,uci,0.5424,0.0397,0.0986,297.362
+optdigits,Div-KMedoids,uci,0.383,0.0484,0.0531,363.4722
+optdigits,Div-Ward,uci,0.6439,0.0412,0.0933,226.0959
+optdigits,GMM,uci,0.5297,0.078,0.1163,910.9248
+optdigits,Genie (g=0.3),uci,0.687,0.0737,0.0907,69.8989
+optdigits,KMeans,uci,0.5131,0.054,0.1368,51.8607
+optdigits,KMedoids,uci,0.4639,0.0323,0.1105,83.008
+optdigits,PDDP,uci,0.3208,0.0265,0.0534,69.2205
+optdigits,Spectral (kNN graph),uci,0.6836,0.0179,0.1273,86.9485
+optdigits,mNN-Divisive (m=10),uci,0.5286,0.0972,0.0965,462.6536
+other/chameleon_t4_8k,Agglo-Average,other,0.5085,0.0524,0.3553,57.1936
+other/chameleon_t4_8k,Agglo-Complete,other,0.4304,0.0679,0.3304,52.5787
+other/chameleon_t4_8k,Agglo-Single,other,0.0,0.0,-0.1633,42.7224
+other/chameleon_t4_8k,Agglo-Ward,other,0.4865,0.0494,0.3553,41.9653
+other/chameleon_t4_8k,DIANA,other,0.4887,0.0639,0.3542,131.271
+other/chameleon_t4_8k,Div-GMM,other,0.4847,0.0256,0.3601,122.5679
+other/chameleon_t4_8k,Div-KMeans,other,0.4604,0.0134,0.3544,155.4589
+other/chameleon_t4_8k,Div-KMedoids,other,0.4192,0.0468,0.3444,334.3427
+other/chameleon_t4_8k,Div-Ward,other,0.4879,0.0513,0.3532,96.7291
+other/chameleon_t4_8k,GMM,other,0.5226,0.0474,0.3344,99.7208
+other/chameleon_t4_8k,Genie (g=0.3),other,0.839,0.0959,0.2403,1.8488
+other/chameleon_t4_8k,KMeans,other,0.4926,0.0177,0.391,34.6692
+other/chameleon_t4_8k,KMedoids,other,0.4975,0.0108,0.3869,180.2629
+other/chameleon_t4_8k,PDDP,other,0.4189,0.048,0.3042,26.4757
+other/chameleon_t4_8k,Spectral (kNN graph),other,0.5008,0.0617,0.3264,61.5718
+other/chameleon_t4_8k,mNN-Divisive (m=10),other,0.5456,0.0843,0.2022,181.1807
+other/chameleon_t5_8k,Agglo-Average,other,0.2737,0.07,0.3358,55.1133
+other/chameleon_t5_8k,Agglo-Complete,other,0.2024,0.0347,0.2907,52.2757
+other/chameleon_t5_8k,Agglo-Single,other,0.0,0.0,-0.1053,40.8562
+other/chameleon_t5_8k,Agglo-Ward,other,0.2484,0.0715,0.3426,39.4699
+other/chameleon_t5_8k,DIANA,other,0.2565,0.0421,0.3318,133.737
+other/chameleon_t5_8k,Div-GMM,other,0.2478,0.0436,0.2995,156.5437
+other/chameleon_t5_8k,Div-KMeans,other,0.2252,0.0204,0.3197,152.8055
+other/chameleon_t5_8k,Div-KMedoids,other,0.2291,0.0326,0.334,430.0657
+other/chameleon_t5_8k,Div-Ward,other,0.2591,0.0525,0.3386,97.8006
+other/chameleon_t5_8k,GMM,other,0.3076,0.0698,0.3167,83.0014
+other/chameleon_t5_8k,Genie (g=0.3),other,0.4141,0.119,0.0971,1.7918
+other/chameleon_t5_8k,KMeans,other,0.2034,0.0042,0.3924,36.1249
+other/chameleon_t5_8k,KMedoids,other,0.2116,0.019,0.3888,151.2486
+other/chameleon_t5_8k,PDDP,other,0.2884,0.0242,0.2517,26.0786
+other/chameleon_t5_8k,Spectral (kNN graph),other,0.3812,0.0435,0.3151,64.247
+other/chameleon_t5_8k,mNN-Divisive (m=10),other,0.4866,0.1547,0.1551,212.0735
+other/chameleon_t7_10k,Agglo-Average,other,0.3676,0.0377,0.3579,53.0218
+other/chameleon_t7_10k,Agglo-Complete,other,0.3489,0.0238,0.3416,52.0056
+other/chameleon_t7_10k,Agglo-Single,other,0.0426,0.0899,-0.4798,40.1026
+other/chameleon_t7_10k,Agglo-Ward,other,0.3453,0.0224,0.3561,43.4675
+other/chameleon_t7_10k,DIANA,other,0.3963,0.0433,0.3403,142.1058
+other/chameleon_t7_10k,Div-GMM,other,0.3623,0.0449,0.3519,218.7082
+other/chameleon_t7_10k,Div-KMeans,other,0.3728,0.0077,0.3708,213.1801
+other/chameleon_t7_10k,Div-KMedoids,other,0.3603,0.0438,0.3305,454.8182
+other/chameleon_t7_10k,Div-Ward,other,0.3502,0.0171,0.3546,101.2614
+other/chameleon_t7_10k,GMM,other,0.3898,0.0559,0.3655,116.3004
+other/chameleon_t7_10k,Genie (g=0.3),other,0.6314,0.0778,0.2399,1.8464
+other/chameleon_t7_10k,KMeans,other,0.3528,0.0035,0.4029,36.9399
+other/chameleon_t7_10k,KMedoids,other,0.3543,0.0264,0.3959,137.2891
+other/chameleon_t7_10k,PDDP,other,0.3238,0.0052,0.2816,30.2805
+other/chameleon_t7_10k,Spectral (kNN graph),other,0.4213,0.0347,0.3329,66.2714
+other/chameleon_t7_10k,mNN-Divisive (m=10),other,0.5073,0.0714,0.2356,190.0112
+other/chameleon_t8_8k,Agglo-Average,other,0.4867,0.0433,0.3898,54.1795
+other/chameleon_t8_8k,Agglo-Complete,other,0.4561,0.0394,0.3558,48.8676
+other/chameleon_t8_8k,Agglo-Single,other,0.0,0.0,-0.3539,42.77
+other/chameleon_t8_8k,Agglo-Ward,other,0.4821,0.0422,0.3937,39.8156
+other/chameleon_t8_8k,DIANA,other,0.4407,0.0422,0.3618,145.4351
+other/chameleon_t8_8k,Div-GMM,other,0.4518,0.057,0.3558,159.8032
+other/chameleon_t8_8k,Div-KMeans,other,0.4851,0.0131,0.3623,198.6727
+other/chameleon_t8_8k,Div-KMedoids,other,0.467,0.0211,0.3563,450.206
+other/chameleon_t8_8k,Div-Ward,other,0.4961,0.0532,0.3679,99.8008
+other/chameleon_t8_8k,GMM,other,0.5331,0.0283,0.3629,102.4079
+other/chameleon_t8_8k,Genie (g=0.3),other,0.7416,0.0485,0.2759,1.8707
+other/chameleon_t8_8k,KMeans,other,0.4922,0.0199,0.4312,34.9661
+other/chameleon_t8_8k,KMedoids,other,0.4914,0.0107,0.4272,138.6691
+other/chameleon_t8_8k,PDDP,other,0.3942,0.0094,0.3158,28.1922
+other/chameleon_t8_8k,Spectral (kNN graph),other,0.5915,0.0421,0.3582,63.0842
+other/chameleon_t8_8k,mNN-Divisive (m=10),other,0.6572,0.0872,0.2664,190.3886
+other/hdbscan,Agglo-Average,other,0.3957,0.0522,0.3463,45.4999
+other/hdbscan,Agglo-Complete,other,0.4514,0.082,0.3299,43.3713
+other/hdbscan,Agglo-Single,other,0.0,0.0,-0.0622,37.5559
+other/hdbscan,Agglo-Ward,other,0.6774,0.0726,0.3758,33.472
+other/hdbscan,DIANA,other,0.6324,0.0695,0.3556,107.8315
+other/hdbscan,Div-GMM,other,0.7112,0.0766,0.3348,170.8991
+other/hdbscan,Div-KMeans,other,0.6778,0.0495,0.3716,156.2122
+other/hdbscan,Div-KMedoids,other,0.8156,0.0382,0.3449,391.0175
+other/hdbscan,Div-Ward,other,0.7202,0.0689,0.3579,88.4342
+other/hdbscan,GMM,other,0.6869,0.1169,0.2645,122.1251
+other/hdbscan,Genie (g=0.3),other,0.9061,0.1237,0.3333,1.7601
+other/hdbscan,KMeans,other,0.6606,0.0457,0.4074,33.4005
+other/hdbscan,KMedoids,other,0.7415,0.0135,0.397,170.1501
+other/hdbscan,PDDP,other,0.5487,0.0112,0.3266,23.3088
+other/hdbscan,Spectral (kNN graph),other,0.8768,0.0294,0.3167,55.7316
+other/hdbscan,mNN-Divisive (m=10),other,0.7606,0.1236,0.3227,171.7291
+other/iris,Agglo-Average,other,0.5525,0.0127,0.4822,0.8776
+other/iris,Agglo-Complete,other,0.4607,0.1134,0.4002,0.8178
+other/iris,Agglo-Single,other,0.5551,0.0,0.5028,0.7606
+other/iris,Agglo-Ward,other,0.6334,0.0538,0.455,0.7383
+other/iris,DIANA,other,0.6067,0.0253,0.4619,2.2345
+other/iris,Div-GMM,other,0.9019,0.0647,0.3751,49.2219
+other/iris,Div-KMeans,other,0.6007,0.0209,0.4599,32.5333
+other/iris,Div-KMedoids,other,0.6557,0.0343,0.4523,3.5479
+other/iris,Div-Ward,other,0.6334,0.0538,0.455,2.0382
+other/iris,GMM,other,0.9107,0.061,0.3773,38.8965
+other/iris,Genie (g=0.3),other,0.6692,0.063,0.4221,0.2702
+other/iris,KMeans,other,0.6064,0.021,0.4592,16.4857
+other/iris,KMedoids,other,0.6517,0.0338,0.4551,1.9791
+other/iris,PDDP,other,0.5183,0.0186,0.4062,0.5503
+other/iris,Spectral (kNN graph),other,0.4902,0.0951,0.4233,4.6154
+other/iris,mNN-Divisive (m=10),other,0.5639,0.0121,0.4479,0.8872
+other/iris5,Agglo-Average,other,0.1905,0.0921,0.3962,0.6571
+other/iris5,Agglo-Complete,other,0.3278,0.1078,0.3732,0.6875
+other/iris5,Agglo-Single,other,0.1491,0.0015,0.4654,0.6505
+other/iris5,Agglo-Ward,other,0.3411,0.0666,0.3771,0.6801
+other/iris5,DIANA,other,0.3724,0.049,0.3868,1.2544
+other/iris5,Div-GMM,other,0.6441,0.2063,0.2336,68.8459
+other/iris5,Div-KMeans,other,0.3127,0.0607,0.2536,34.6708
+other/iris5,Div-KMedoids,other,0.3191,0.0462,0.2287,3.1129
+other/iris5,Div-Ward,other,0.3318,0.0764,0.3665,1.7899
+other/iris5,GMM,other,0.8453,0.0359,0.3045,46.1266
+other/iris5,Genie (g=0.3),other,0.3955,0.1154,0.191,0.2327
+other/iris5,KMeans,other,0.3588,0.0571,0.3828,17.4056
+other/iris5,KMedoids,other,0.3335,0.0861,0.2996,1.7007
+other/iris5,PDDP,other,0.3377,0.0298,0.1961,0.5097
+other/iris5,Spectral (kNN graph),other,0.279,0.0348,0.2684,4.5181
+other/iris5,mNN-Divisive (m=10),other,0.1842,0.1439,0.2563,0.7548
+other/square,Agglo-Average,other,0.0445,0.0132,0.3494,10.8873
+other/square,Agglo-Complete,other,0.1792,0.1106,0.3581,10.2183
+other/square,Agglo-Single,other,1.0,0.0,0.1855,7.2465
+other/square,Agglo-Ward,other,0.1827,0.1016,0.3559,9.3019
+other/square,DIANA,other,0.1901,0.0404,0.369,11.9996
+other/square,Div-GMM,other,0.0377,0.0078,0.3363,27.1425
+other/square,Div-KMeans,other,0.0271,0.0062,0.336,37.0376
+other/square,Div-KMedoids,other,0.0087,0.0046,0.3187,47.5299
+other/square,Div-Ward,other,0.1827,0.1016,0.3559,12.588
+other/square,GMM,other,0.0381,0.0089,0.3365,22.86
+other/square,Genie (g=0.3),other,1.0,0.0,0.1855,0.8573
+other/square,KMeans,other,0.0267,0.0058,0.3361,32.2772
+other/square,KMedoids,other,0.0087,0.0046,0.3187,42.9147
+other/square,PDDP,other,0.0144,0.0086,0.3017,3.0024
+other/square,Spectral (kNN graph),other,1.0,0.0,0.1855,14.9654
+other/square,mNN-Divisive (m=10),other,0.2329,0.0304,0.3577,15.174
+parkinsons,Agglo-Average,uci,-0.0266,0.005,0.6706,1.0596
+parkinsons,Agglo-Complete,uci,-0.0266,0.005,0.6706,1.0575
+parkinsons,Agglo-Single,uci,-0.0158,0.0059,0.6577,0.9475
+parkinsons,Agglo-Ward,uci,0.065,0.1243,0.3505,1.0802
+parkinsons,DIANA,uci,-0.0697,0.0115,0.5515,0.7149
+parkinsons,Div-GMM,uci,-0.067,0.0311,0.3804,20.3603
+parkinsons,Div-KMeans,uci,-0.0937,0.0072,0.4258,17.4662
+parkinsons,Div-KMedoids,uci,0.1284,0.0535,0.2631,2.5165
+parkinsons,Div-Ward,uci,0.065,0.1243,0.3505,1.5264
+parkinsons,GMM,uci,-0.0658,0.0308,0.3827,18.2757
+parkinsons,Genie (g=0.3),uci,-0.0391,0.0901,0.2407,1.1938
+parkinsons,KMeans,uci,-0.0932,0.0071,0.4284,16.8771
+parkinsons,KMedoids,uci,0.1284,0.0535,0.2631,2.3626
+parkinsons,PDDP,uci,0.0672,0.0199,0.2883,0.6394
+parkinsons,Spectral (kNN graph),uci,0.1655,0.028,0.2549,5.4274
+parkinsons,mNN-Divisive (m=10),uci,-0.0703,0.0092,0.5041,0.772
+pendigits,Agglo-Average,uci,0.3784,0.0284,0.2197,64.1809
+pendigits,Agglo-Complete,uci,0.3346,0.0356,0.1582,60.8198
+pendigits,Agglo-Single,uci,0.0002,0.0001,-0.1112,40.9411
+pendigits,Agglo-Ward,uci,0.5916,0.0369,0.271,56.814
+pendigits,DIANA,uci,0.3478,0.0486,0.2079,158.7497
+pendigits,Div-GMM,uci,0.6488,0.021,0.2213,362.8014
+pendigits,Div-KMeans,uci,0.5526,0.0172,0.2311,255.411
+pendigits,Div-KMedoids,uci,0.5,0.0273,0.1945,310.0788
+pendigits,Div-Ward,uci,0.6415,0.0171,0.2428,156.3993
+pendigits,GMM,uci,0.6273,0.0345,0.2405,444.0394
+pendigits,Genie (g=0.3),uci,0.6212,0.0238,0.2475,7.5374
+pendigits,KMeans,uci,0.5598,0.0322,0.2771,47.6655
+pendigits,KMedoids,uci,0.5202,0.0397,0.2598,80.4718
+pendigits,PDDP,uci,0.4512,0.0224,0.1827,33.6025
+pendigits,Spectral (kNN graph),uci,0.6755,0.0561,0.2443,61.108
+pendigits,mNN-Divisive (m=10),uci,0.5524,0.0657,0.2048,216.0808
+segmentation,Agglo-Average,uci,0.1204,0.0424,0.4023,1.0608
+segmentation,Agglo-Complete,uci,0.2337,0.072,0.3083,1.0152
+segmentation,Agglo-Single,uci,0.0011,0.0008,0.1948,0.8482
+segmentation,Agglo-Ward,uci,0.3941,0.0436,0.3399,1.059
+segmentation,DIANA,uci,0.1593,0.0536,0.3485,2.7399
+segmentation,Div-GMM,uci,0.4871,0.0297,0.2207,81.8081
+segmentation,Div-KMeans,uci,0.4625,0.0582,0.2451,93.2876
+segmentation,Div-KMedoids,uci,0.5099,0.0518,0.2466,8.077
+segmentation,Div-Ward,uci,0.4629,0.036,0.252,4.8115
+segmentation,GMM,uci,0.4553,0.0621,0.3095,41.0889
+segmentation,Genie (g=0.3),uci,0.5208,0.0362,0.1918,0.488
+segmentation,KMeans,uci,0.4632,0.0355,0.3557,19.7292
+segmentation,KMedoids,uci,0.4876,0.0517,0.2944,4.1171
+segmentation,PDDP,uci,0.4742,0.0263,0.2045,1.3199
+segmentation,Spectral (kNN graph),uci,0.5472,0.026,0.2147,5.3505
+segmentation,mNN-Divisive (m=10),uci,0.2904,0.1047,0.2894,3.4143
+sipu/a1,Agglo-Average,sipu,0.8575,0.0296,0.5186,59.6826
+sipu/a1,Agglo-Complete,sipu,0.6984,0.0409,0.4347,55.1027
+sipu/a1,Agglo-Single,sipu,0.2673,0.0671,-0.1441,41.3133
+sipu/a1,Agglo-Ward,sipu,0.9223,0.0164,0.5452,45.4407
+sipu/a1,DIANA,sipu,0.6775,0.0153,0.3779,203.2319
+sipu/a1,Div-GMM,sipu,0.8786,0.0132,0.5052,384.3227
+sipu/a1,Div-KMeans,sipu,0.8506,0.0094,0.5132,398.4256
+sipu/a1,Div-KMedoids,sipu,0.8109,0.0236,0.4875,457.1945
+sipu/a1,Div-Ward,sipu,0.9223,0.0164,0.5452,128.0097
+sipu/a1,GMM,sipu,0.9438,0.0281,0.5471,92.4758
+sipu/a1,Genie (g=0.3),sipu,0.8598,0.0385,0.5119,1.8656
+sipu/a1,KMeans,sipu,0.9157,0.005,0.5604,37.6863
+sipu/a1,KMedoids,sipu,0.8811,0.0282,0.5442,108.0223
+sipu/a1,PDDP,sipu,0.6223,0.0097,0.3532,33.9587
+sipu/a1,Spectral (kNN graph),sipu,0.9037,0.0309,0.5424,69.0176
+sipu/a1,mNN-Divisive (m=10),sipu,0.8997,0.031,0.5346,212.1661
+sipu/a2,Agglo-Average,sipu,0.9152,0.0191,0.5633,59.0924
+sipu/a2,Agglo-Complete,sipu,0.8806,0.0248,0.5409,54.7906
+sipu/a2,Agglo-Single,sipu,0.4321,0.0316,-0.0007,42.572
+sipu/a2,Agglo-Ward,sipu,0.9324,0.0107,0.5679,46.1373
+sipu/a2,DIANA,sipu,0.8001,0.013,0.485,241.4461
+sipu/a2,Div-GMM,sipu,0.849,0.0217,0.5046,589.0202
+sipu/a2,Div-KMeans,sipu,0.864,0.0099,0.5263,607.2398
+sipu/a2,Div-KMedoids,sipu,0.8009,0.015,0.4727,473.1936
+sipu/a2,Div-Ward,sipu,0.9324,0.0107,0.5679,132.8074
+sipu/a2,GMM,sipu,0.9239,0.0217,0.5622,151.0302
+sipu/a2,Genie (g=0.3),sipu,0.8623,0.0369,0.5262,1.852
+sipu/a2,KMeans,sipu,0.9527,0.0132,0.5777,55.4053
+sipu/a2,KMedoids,sipu,0.8663,0.0166,0.536,119.4103
+sipu/a2,PDDP,sipu,0.626,0.011,0.3411,37.1297
+sipu/a2,Spectral (kNN graph),sipu,0.9547,0.0082,0.5777,75.8027
+sipu/a2,mNN-Divisive (m=10),sipu,0.9403,0.013,0.5691,243.6767
+sipu/a3,Agglo-Average,sipu,0.9419,0.0181,0.5894,57.4782
+sipu/a3,Agglo-Complete,sipu,0.9244,0.0179,0.5793,54.3005
+sipu/a3,Agglo-Single,sipu,0.553,0.054,0.1803,41.4604
+sipu/a3,Agglo-Ward,sipu,0.945,0.0087,0.5908,44.9859
+sipu/a3,DIANA,sipu,0.8114,0.0176,0.4949,267.3261
+sipu/a3,Div-GMM,sipu,0.8925,0.019,0.5501,761.6413
+sipu/a3,Div-KMeans,sipu,0.8773,0.0153,0.5405,840.567
+sipu/a3,Div-KMedoids,sipu,0.8237,0.0143,0.4964,456.0114
+sipu/a3,Div-Ward,sipu,0.945,0.0087,0.5908,144.2814
+sipu/a3,GMM,sipu,0.9434,0.0208,0.5868,196.1324
+sipu/a3,Genie (g=0.3),sipu,0.8953,0.0241,0.5623,1.8513
+sipu/a3,KMeans,sipu,0.9584,0.0165,0.5947,72.0625
+sipu/a3,KMedoids,sipu,0.8704,0.0142,0.5478,147.2804
+sipu/a3,PDDP,sipu,0.6998,0.0123,0.3901,39.6125
+sipu/a3,Spectral (kNN graph),sipu,0.9688,0.0059,0.5994,83.7648
+sipu/a3,mNN-Divisive (m=10),sipu,0.9567,0.0071,0.5935,226.9538
+sipu/aggregation,Agglo-Average,sipu,0.9902,0.0123,0.4723,6.9807
+sipu/aggregation,Agglo-Complete,sipu,0.7885,0.0843,0.455,6.9414
+sipu/aggregation,Agglo-Single,sipu,0.8586,0.05,0.3053,5.0636
+sipu/aggregation,Agglo-Ward,sipu,0.7752,0.0755,0.4483,6.1745
+sipu/aggregation,DIANA,sipu,0.7554,0.0162,0.4645,21.9347
+sipu/aggregation,Div-GMM,sipu,0.7802,0.0258,0.4549,102.9048
+sipu/aggregation,Div-KMeans,sipu,0.5425,0.0165,0.4136,117.6965
+sipu/aggregation,Div-KMedoids,sipu,0.5278,0.0566,0.4017,42.3907
+sipu/aggregation,Div-Ward,sipu,0.7062,0.0624,0.4384,17.3475
+sipu/aggregation,GMM,sipu,0.8011,0.0956,0.4537,49.5647
+sipu/aggregation,Genie (g=0.3),sipu,0.7077,0.0477,0.4219,0.6931
+sipu/aggregation,KMeans,sipu,0.7231,0.0154,0.4706,31.8623
+sipu/aggregation,KMedoids,sipu,0.6945,0.0592,0.4543,13.6524
+sipu/aggregation,PDDP,sipu,0.527,0.0388,0.3558,3.3573
+sipu/aggregation,Spectral (kNN graph),sipu,0.9599,0.0186,0.4749,13.4031
+sipu/aggregation,mNN-Divisive (m=10),sipu,0.736,0.0306,0.4215,18.6582
+sipu/birch1,Agglo-Average,sipu,0.813,0.0105,0.4352,59.3299
+sipu/birch1,Agglo-Complete,sipu,0.7303,0.0244,0.3979,56.5416
+sipu/birch1,Agglo-Single,sipu,0.2202,0.0814,-0.2241,41.5248
+sipu/birch1,Agglo-Ward,sipu,0.8006,0.0194,0.4311,41.9672
+sipu/birch1,DIANA,sipu,0.6393,0.025,0.3426,353.1341
+sipu/birch1,Div-GMM,sipu,0.7215,0.0178,0.3686,1552.7176
+sipu/birch1,Div-KMeans,sipu,0.6554,0.0128,0.3499,1543.1411
+sipu/birch1,Div-KMedoids,sipu,0.6506,0.0139,0.3391,604.2697
+sipu/birch1,Div-Ward,sipu,0.7989,0.0211,0.4305,153.7421
+sipu/birch1,GMM,sipu,0.7786,0.0316,0.411,1141.1327
+sipu/birch1,Genie (g=0.3),sipu,0.6681,0.0174,0.3309,1.779
+sipu/birch1,KMeans,sipu,0.8654,0.0168,0.4512,144.4079
+sipu/birch1,KMedoids,sipu,0.768,0.0254,0.4113,435.7781
+sipu/birch1,PDDP,sipu,0.4624,0.0164,0.2241,46.216
+sipu/birch1,Spectral (kNN graph),sipu,0.8926,0.0124,0.4556,162.955
+sipu/birch1,mNN-Divisive (m=10),sipu,0.808,0.0201,0.4255,253.4888
+sipu/birch2,Agglo-Average,sipu,0.6884,0.0143,0.5891,56.242
+sipu/birch2,Agglo-Complete,sipu,0.6468,0.0155,0.557,53.184
+sipu/birch2,Agglo-Single,sipu,0.4437,0.0126,0.4267,43.7568
+sipu/birch2,Agglo-Ward,sipu,0.7422,0.0133,0.6071,42.3678
+sipu/birch2,DIANA,sipu,0.6132,0.0138,0.5378,336.8126
+sipu/birch2,Div-GMM,sipu,0.7449,0.014,0.5458,1554.155
+sipu/birch2,Div-KMeans,sipu,0.6862,0.0154,0.5275,1488.2755
+sipu/birch2,Div-KMedoids,sipu,0.6662,0.0209,0.4933,474.5374
+sipu/birch2,Div-Ward,sipu,0.7863,0.0094,0.6015,154.3492
+sipu/birch2,GMM,sipu,0.7811,0.0149,0.5844,1053.7935
+sipu/birch2,Genie (g=0.3),sipu,0.6647,0.0094,0.5712,1.7281
+sipu/birch2,KMeans,sipu,0.7375,0.013,0.6068,135.706
+sipu/birch2,KMedoids,sipu,0.7121,0.0149,0.5908,442.3146
+sipu/birch2,PDDP,sipu,0.6249,0.0044,0.4355,44.2136
+sipu/birch2,Spectral (kNN graph),sipu,0.7908,0.0096,0.611,136.6249
+sipu/birch2,mNN-Divisive (m=10),sipu,0.7734,0.014,0.5896,267.7604
+sipu/compound,Agglo-Average,sipu,0.8491,0.0165,0.4769,2.1326
+sipu/compound,Agglo-Complete,sipu,0.765,0.0527,0.453,2.0341
+sipu/compound,Agglo-Single,sipu,0.8439,0.0001,0.4092,1.6424
+sipu/compound,Agglo-Ward,sipu,0.5695,0.0523,0.4106,1.9548
+sipu/compound,DIANA,sipu,0.8119,0.0915,0.459,7.1349
+sipu/compound,Div-GMM,sipu,0.5581,0.0428,0.3797,92.6183
+sipu/compound,Div-KMeans,sipu,0.4637,0.0349,0.394,86.3328
+sipu/compound,Div-KMedoids,sipu,0.5469,0.0076,0.3881,12.6138
+sipu/compound,Div-Ward,sipu,0.5083,0.0359,0.4124,6.153
+sipu/compound,GMM,sipu,0.6269,0.0682,0.4188,40.9664
+sipu/compound,Genie (g=0.3),sipu,0.6381,0.0819,0.3725,0.4434
+sipu/compound,KMeans,sipu,0.6218,0.0221,0.4257,25.0405
+sipu/compound,KMedoids,sipu,0.61,0.0381,0.4248,6.202
+sipu/compound,PDDP,sipu,0.3997,0.0073,0.3275,1.2303
+sipu/compound,Spectral (kNN graph),sipu,0.5221,0.048,0.3426,7.9274
+sipu/compound,mNN-Divisive (m=10),sipu,0.5858,0.0476,0.3974,4.7318
+sipu/d31,Agglo-Average,sipu,0.923,0.0138,0.5642,61.6527
+sipu/d31,Agglo-Complete,sipu,0.8817,0.0228,0.5371,56.7108
+sipu/d31,Agglo-Single,sipu,0.2636,0.0579,-0.2398,42.096
+sipu/d31,Agglo-Ward,sipu,0.9247,0.0095,0.5632,45.0859
+sipu/d31,DIANA,sipu,0.7654,0.0274,0.4576,241.1348
+sipu/d31,Div-GMM,sipu,0.8544,0.0232,0.5098,526.8448
+sipu/d31,Div-KMeans,sipu,0.8429,0.0154,0.5105,549.9356
+sipu/d31,Div-KMedoids,sipu,0.7845,0.0243,0.4624,461.9096
+sipu/d31,Div-Ward,sipu,0.9247,0.0095,0.5632,134.1917
+sipu/d31,GMM,sipu,0.9257,0.0225,0.5642,112.395
+sipu/d31,Genie (g=0.3),sipu,0.8848,0.0354,0.5365,1.8264
+sipu/d31,KMeans,sipu,0.9392,0.0232,0.5694,51.2072
+sipu/d31,KMedoids,sipu,0.8565,0.0233,0.53,120.4362
+sipu/d31,PDDP,sipu,0.6288,0.0098,0.35,36.4734
+sipu/d31,Spectral (kNN graph),sipu,0.9456,0.0057,0.5735,74.7417
+sipu/d31,mNN-Divisive (m=10),sipu,0.933,0.0127,0.5663,242.285
+sipu/flame,Agglo-Average,sipu,0.3064,0.2172,0.3468,1.2583
+sipu/flame,Agglo-Complete,sipu,0.2415,0.2726,0.3103,1.2395
+sipu/flame,Agglo-Single,sipu,0.0149,0.0025,0.2977,1.0653
+sipu/flame,Agglo-Ward,sipu,0.3006,0.1035,0.3481,1.185
+sipu/flame,DIANA,sipu,0.4757,0.0535,0.3731,2.3062
+sipu/flame,Div-GMM,sipu,0.4038,0.0815,0.3645,18.2885
+sipu/flame,Div-KMeans,sipu,0.4589,0.0467,0.3775,16.7351
+sipu/flame,Div-KMedoids,sipu,0.5105,0.0625,0.3684,3.8142
+sipu/flame,Div-Ward,sipu,0.3006,0.1035,0.3481,1.6964
+sipu/flame,GMM,sipu,0.3693,0.0771,0.363,17.5847
+sipu/flame,Genie (g=0.3),sipu,0.9978,0.007,0.3194,0.3152
+sipu/flame,KMeans,sipu,0.4604,0.0477,0.3776,16.1906
+sipu/flame,KMedoids,sipu,0.5105,0.0625,0.3684,3.3356
+sipu/flame,PDDP,sipu,0.3649,0.0563,0.3685,0.5315
+sipu/flame,Spectral (kNN graph),sipu,0.3649,0.1042,0.3565,5.9046
+sipu/flame,mNN-Divisive (m=10),sipu,0.1965,0.3223,0.2972,0.9938
+sipu/jain,Agglo-Average,sipu,0.5926,0.1084,0.4928,1.8841
+sipu/jain,Agglo-Complete,sipu,0.7,0.1031,0.4792,1.8128
+sipu/jain,Agglo-Single,sipu,0.3943,0.4553,0.3107,1.5276
+sipu/jain,Agglo-Ward,sipu,0.5149,0.1608,0.4892,1.8842
+sipu/jain,DIANA,sipu,0.5262,0.0314,0.5012,3.1888
+sipu/jain,Div-GMM,sipu,-0.0043,0.0177,0.3626,45.7648
+sipu/jain,Div-KMeans,sipu,0.549,0.031,0.5023,22.5243
+sipu/jain,Div-KMedoids,sipu,0.493,0.0424,0.4969,6.0267
+sipu/jain,Div-Ward,sipu,0.5149,0.1608,0.4892,2.5826
+sipu/jain,GMM,sipu,-0.0042,0.0189,0.3627,41.5092
+sipu/jain,Genie (g=0.3),sipu,0.9529,0.149,0.4533,0.4546
+sipu/jain,KMeans,sipu,0.5481,0.0312,0.5023,20.3788
+sipu/jain,KMedoids,sipu,0.493,0.0424,0.4969,5.0423
+sipu/jain,PDDP,sipu,0.4558,0.0149,0.4907,0.6151
+sipu/jain,Spectral (kNN graph),sipu,0.5026,0.0993,0.4927,6.9654
+sipu/jain,mNN-Divisive (m=10),sipu,0.0592,0.14,0.3427,1.9916
+sipu/pathbased,Agglo-Average,sipu,0.5812,0.0053,0.5025,1.5102
+sipu/pathbased,Agglo-Complete,sipu,0.3779,0.1229,0.3543,1.5754
+sipu/pathbased,Agglo-Single,sipu,0.0216,0.0231,-0.0567,1.2713
+sipu/pathbased,Agglo-Ward,sipu,0.5811,0.0167,0.4975,1.4379
+sipu/pathbased,DIANA,sipu,0.5922,0.0113,0.4816,3.7636
+sipu/pathbased,Div-GMM,sipu,0.5579,0.0094,0.4564,39.1572
+sipu/pathbased,Div-KMeans,sipu,0.5586,0.027,0.449,33.0249
+sipu/pathbased,Div-KMedoids,sipu,0.5558,0.0102,0.4394,6.9893
+sipu/pathbased,Div-Ward,sipu,0.5811,0.0167,0.4975,3.1629
+sipu/pathbased,GMM,sipu,0.567,0.0065,0.4864,26.0461
+sipu/pathbased,Genie (g=0.3),sipu,0.6122,0.102,0.3654,0.3776
+sipu/pathbased,KMeans,sipu,0.5863,0.0037,0.5103,17.3148
+sipu/pathbased,KMedoids,sipu,0.5827,0.0042,0.5098,4.8715
+sipu/pathbased,PDDP,sipu,0.325,0.0389,0.3177,0.7024
+sipu/pathbased,Spectral (kNN graph),sipu,0.6025,0.0121,0.481,6.7207
+sipu/pathbased,mNN-Divisive (m=10),sipu,0.4625,0.1755,0.4265,2.2121
+sipu/r15,Agglo-Average,sipu,0.9825,0.0049,0.7503,4.2018
+sipu/r15,Agglo-Complete,sipu,0.9672,0.0136,0.7443,4.0563
+sipu/r15,Agglo-Single,sipu,0.7071,0.0456,0.4386,2.855
+sipu/r15,Agglo-Ward,sipu,0.9734,0.0095,0.7481,3.5694
+sipu/r15,DIANA,sipu,0.8789,0.0467,0.659,26.7471
+sipu/r15,Div-GMM,sipu,0.8875,0.0231,0.67,195.3605
+sipu/r15,Div-KMeans,sipu,0.9609,0.0179,0.7403,229.6712
+sipu/r15,Div-KMedoids,sipu,0.8719,0.0502,0.6484,34.2659
+sipu/r15,Div-Ward,sipu,0.9734,0.0095,0.7481,20.7122
+sipu/r15,GMM,sipu,0.9919,0.0019,0.7525,43.0574
+sipu/r15,Genie (g=0.3),sipu,0.9812,0.005,0.7498,0.5805
+sipu/r15,KMeans,sipu,0.991,0.003,0.7526,33.1142
+sipu/r15,KMedoids,sipu,0.951,0.0527,0.7225,11.2237
+sipu/r15,PDDP,sipu,0.7806,0.0329,0.5588,3.1332
+sipu/r15,Spectral (kNN graph),sipu,0.9891,0.0032,0.7522,10.6589
+sipu/r15,mNN-Divisive (m=10),sipu,0.9812,0.0069,0.7483,29.1398
+sipu/s1,Agglo-Average,sipu,0.9827,0.0046,0.71,56.1278
+sipu/s1,Agglo-Complete,sipu,0.9405,0.0371,0.6737,50.8367
+sipu/s1,Agglo-Single,sipu,0.6417,0.066,0.2836,41.2808
+sipu/s1,Agglo-Ward,sipu,0.9794,0.0112,0.7079,41.4352
+sipu/s1,DIANA,sipu,0.8808,0.0269,0.6242,165.0595
+sipu/s1,Div-GMM,sipu,0.915,0.0183,0.647,282.9288
+sipu/s1,Div-KMeans,sipu,0.9593,0.0061,0.6959,297.0556
+sipu/s1,Div-KMedoids,sipu,0.8966,0.0168,0.6399,356.4397
+sipu/s1,Div-Ward,sipu,0.9794,0.0112,0.7079,112.5905
+sipu/s1,GMM,sipu,0.9876,0.0023,0.7124,47.0288
+sipu/s1,Genie (g=0.3),sipu,0.9851,0.005,0.7108,1.9141
+sipu/s1,KMeans,sipu,0.9853,0.0021,0.7129,24.2533
+sipu/s1,KMedoids,sipu,0.9772,0.0265,0.7085,71.8405
+sipu/s1,PDDP,sipu,0.7738,0.0068,0.5129,32.4499
+sipu/s1,Spectral (kNN graph),sipu,0.9843,0.0053,0.7109,63.093
+sipu/s1,mNN-Divisive (m=10),sipu,0.9856,0.0038,0.7116,206.8316
+sipu/s2,Agglo-Average,sipu,0.8706,0.0191,0.5908,56.2047
+sipu/s2,Agglo-Complete,sipu,0.7936,0.0411,0.5244,51.5988
+sipu/s2,Agglo-Single,sipu,0.0577,0.0356,-0.4254,40.6808
+sipu/s2,Agglo-Ward,sipu,0.8986,0.0131,0.605,39.4288
+sipu/s2,DIANA,sipu,0.7881,0.0419,0.5149,173.804
+sipu/s2,Div-GMM,sipu,0.8761,0.0212,0.5894,270.7087
+sipu/s2,Div-KMeans,sipu,0.8765,0.0096,0.5926,302.5775
+sipu/s2,Div-KMedoids,sipu,0.7623,0.0326,0.5022,454.2755
+sipu/s2,Div-Ward,sipu,0.8986,0.0131,0.605,104.7763
+sipu/s2,GMM,sipu,0.9415,0.0048,0.619,62.5784
+sipu/s2,Genie (g=0.3),sipu,0.908,0.0227,0.6095,1.9251
+sipu/s2,KMeans,sipu,0.9348,0.0054,0.6231,28.0571
+sipu/s2,KMedoids,sipu,0.8887,0.0411,0.5944,87.5503
+sipu/s2,PDDP,sipu,0.6711,0.0211,0.4058,31.3212
+sipu/s2,Spectral (kNN graph),sipu,0.9295,0.0123,0.615,67.242
+sipu/s2,mNN-Divisive (m=10),sipu,0.8776,0.0441,0.5894,194.2885
+sipu/s3,Agglo-Average,sipu,0.605,0.0202,0.413,63.4289
+sipu/s3,Agglo-Complete,sipu,0.5381,0.0484,0.3459,56.3378
+sipu/s3,Agglo-Single,sipu,0.0,0.0,-0.4242,42.2865
+sipu/s3,Agglo-Ward,sipu,0.6756,0.0199,0.4522,48.1499
+sipu/s3,DIANA,sipu,0.5817,0.014,0.384,200.4896
+sipu/s3,Div-GMM,sipu,0.6639,0.0212,0.4369,328.172
+sipu/s3,Div-KMeans,sipu,0.6111,0.0101,0.4066,323.005
+sipu/s3,Div-KMedoids,sipu,0.6301,0.0151,0.4143,506.5707
+sipu/s3,Div-Ward,sipu,0.6756,0.0199,0.4522,125.1523
+sipu/s3,GMM,sipu,0.7231,0.0224,0.4714,150.4641
+sipu/s3,Genie (g=0.3),sipu,0.649,0.0414,0.4247,1.8855
+sipu/s3,KMeans,sipu,0.7235,0.0086,0.4933,34.6172
+sipu/s3,KMedoids,sipu,0.6957,0.0313,0.4778,110.2613
+sipu/s3,PDDP,sipu,0.5902,0.0077,0.3958,32.0947
+sipu/s3,Spectral (kNN graph),sipu,0.7271,0.0082,0.4827,68.9574
+sipu/s3,mNN-Divisive (m=10),sipu,0.5944,0.0353,0.3552,218.0184
+sipu/s4,Agglo-Average,sipu,0.503,0.0294,0.3816,58.9233
+sipu/s4,Agglo-Complete,sipu,0.4286,0.0366,0.2994,54.6878
+sipu/s4,Agglo-Single,sipu,0.0001,0.0001,-0.301,40.5961
+sipu/s4,Agglo-Ward,sipu,0.5794,0.0247,0.4257,43.8844
+sipu/s4,DIANA,sipu,0.5323,0.0249,0.3871,196.9128
+sipu/s4,Div-GMM,sipu,0.5912,0.0208,0.4082,343.0072
+sipu/s4,Div-KMeans,sipu,0.5631,0.0127,0.4149,325.7327
+sipu/s4,Div-KMedoids,sipu,0.5442,0.0157,0.3895,526.2719
+sipu/s4,Div-Ward,sipu,0.5793,0.0248,0.4245,125.5824
+sipu/s4,GMM,sipu,0.632,0.0256,0.4254,151.2777
+sipu/s4,Genie (g=0.3),sipu,0.5375,0.0349,0.3509,1.8749
+sipu/s4,KMeans,sipu,0.6376,0.0078,0.4819,40.062
+sipu/s4,KMedoids,sipu,0.6223,0.0178,0.4736,128.6335
+sipu/s4,PDDP,sipu,0.4406,0.015,0.3101,32.5177
+sipu/s4,Spectral (kNN graph),sipu,0.6067,0.0182,0.4329,71.5897
+sipu/s4,mNN-Divisive (m=10),sipu,0.5007,0.0374,0.3152,262.1778
+sipu/spiral,Agglo-Average,sipu,0.0025,0.0055,0.3359,1.4733
+sipu/spiral,Agglo-Complete,sipu,0.0125,0.0252,0.3124,1.5004
+sipu/spiral,Agglo-Single,sipu,0.9558,0.1399,-0.0017,1.1949
+sipu/spiral,Agglo-Ward,sipu,0.0045,0.01,0.3357,1.3758
+sipu/spiral,DIANA,sipu,-0.0035,0.0019,0.312,4.3801
+sipu/spiral,Div-GMM,sipu,-0.0038,0.0019,0.3158,31.3797
+sipu/spiral,Div-KMeans,sipu,-0.0045,0.0017,0.3185,33.4606
+sipu/spiral,Div-KMedoids,sipu,-0.0053,0.0013,0.3211,7.6123
+sipu/spiral,Div-Ward,sipu,0.0045,0.01,0.3357,3.1314
+sipu/spiral,GMM,sipu,-0.0048,0.0021,0.3691,18.9886
+sipu/spiral,Genie (g=0.3),sipu,1.0,0.0,0.0007,0.3801
+sipu/spiral,KMeans,sipu,-0.0046,0.0025,0.3633,18.2646
+sipu/spiral,KMedoids,sipu,-0.0043,0.0034,0.3667,5.3462
+sipu/spiral,PDDP,sipu,-0.0044,0.0018,0.3111,0.7164
+sipu/spiral,Spectral (kNN graph),sipu,0.1813,0.0608,0.1341,6.1047
+sipu/spiral,mNN-Divisive (m=10),sipu,0.0372,0.0235,0.1712,2.3962
+sipu/unbalance,Agglo-Average,sipu,0.6125,0.0004,0.7484,63.0077
+sipu/unbalance,Agglo-Complete,sipu,0.6112,0.0003,0.7366,56.4754
+sipu/unbalance,Agglo-Single,sipu,0.6901,0.163,0.7523,43.4039
+sipu/unbalance,Agglo-Ward,sipu,0.9999,0.0001,0.7666,44.7106
+sipu/unbalance,DIANA,sipu,0.6118,0.0005,0.7487,158.8407
+sipu/unbalance,Div-GMM,sipu,0.5449,0.0208,0.4634,170.2059
+sipu/unbalance,Div-KMeans,sipu,0.539,0.0021,0.4592,184.7752
+sipu/unbalance,Div-KMedoids,sipu,0.5885,0.0016,0.5091,424.8199
+sipu/unbalance,Div-Ward,sipu,0.5651,0.0276,0.4567,162.262
+sipu/unbalance,GMM,sipu,0.9878,0.0381,0.7591,33.9136
+sipu/unbalance,Genie (g=0.3),sipu,0.6404,0.0253,0.4555,1.869
+sipu/unbalance,KMeans,sipu,1.0,0.0,0.7669,19.1645
+sipu/unbalance,KMedoids,sipu,0.8108,0.0717,0.6533,158.8913
+sipu/unbalance,PDDP,sipu,0.5131,0.004,0.4005,31.6063
+sipu/unbalance,Spectral (kNN graph),sipu,0.7193,0.1283,0.5875,64.8201
+sipu/unbalance,mNN-Divisive (m=10),sipu,0.661,0.052,0.4202,248.6057
+sipu/worms_2,Agglo-Average,sipu,0.3109,0.0141,0.3234,66.3705
+sipu/worms_2,Agglo-Complete,sipu,0.3081,0.0153,0.296,63.2804
+sipu/worms_2,Agglo-Single,sipu,-0.0005,0.0001,-0.3335,43.0926
+sipu/worms_2,Agglo-Ward,sipu,0.3408,0.0168,0.3389,47.9054
+sipu/worms_2,DIANA,sipu,0.3078,0.0139,0.3188,253.4542
+sipu/worms_2,Div-GMM,sipu,0.3304,0.0149,0.2694,776.9221
+sipu/worms_2,Div-KMeans,sipu,0.3321,0.0174,0.2948,638.4007
+sipu/worms_2,Div-KMedoids,sipu,0.344,0.0176,0.276,550.1879
+sipu/worms_2,Div-Ward,sipu,0.343,0.0166,0.3179,140.7159
+sipu/worms_2,GMM,sipu,0.3313,0.0137,0.2842,503.2824
+sipu/worms_2,Genie (g=0.3),sipu,0.3337,0.0119,0.248,1.8809
+sipu/worms_2,KMeans,sipu,0.3389,0.0122,0.3682,70.5627
+sipu/worms_2,KMedoids,sipu,0.3393,0.0108,0.3512,153.541
+sipu/worms_2,PDDP,sipu,0.3088,0.0073,0.2389,38.3631
+sipu/worms_2,Spectral (kNN graph),sipu,0.3581,0.0119,0.3186,92.7713
+sipu/worms_2,mNN-Divisive (m=10),sipu,0.3656,0.0225,0.2377,286.6944
+sipu/worms_64,Agglo-Average,sipu,0.0,0.0,0.5299,62.4648
+sipu/worms_64,Agglo-Complete,sipu,0.0049,0.0155,0.3572,61.588
+sipu/worms_64,Agglo-Single,sipu,0.0,0.0,0.5278,34.6309
+sipu/worms_64,Agglo-Ward,sipu,0.3578,0.0499,-0.0161,84.6489
+sipu/worms_64,DIANA,sipu,0.0,0.0,0.5299,795.8887
+sipu/worms_64,Div-GMM,sipu,0.4303,0.0306,0.0187,748.2589
+sipu/worms_64,Div-KMeans,sipu,0.4934,0.0298,-0.0376,487.6449
+sipu/worms_64,Div-KMedoids,sipu,0.1703,0.0253,-0.0734,477.7082
+sipu/worms_64,Div-Ward,sipu,0.4707,0.0385,-0.0333,236.7071
+sipu/worms_64,GMM,sipu,0.107,0.0765,0.0116,1992.7222
+sipu/worms_64,Genie (g=0.3),sipu,0.5624,0.0567,0.0357,74.2245
+sipu/worms_64,KMeans,sipu,0.4057,0.0556,-0.021,83.2171
+sipu/worms_64,KMedoids,sipu,0.1695,0.0374,-0.012,95.8791
+sipu/worms_64,PDDP,sipu,0.1999,0.0278,-0.1087,110.4983
+sipu/worms_64,Spectral (kNN graph),sipu,0.7303,0.0176,0.0428,345.5941
+sipu/worms_64,mNN-Divisive (m=10),sipu,-0.0,0.0,0.4266,2082.7719
+sonar,Agglo-Average,uci,-0.0025,0.0013,0.3622,1.147
+sonar,Agglo-Complete,uci,-0.0007,0.0052,0.2678,1.1694
+sonar,Agglo-Single,uci,-0.002,0.0011,0.3732,0.9829
+sonar,Agglo-Ward,uci,-0.0017,0.0051,0.2144,1.387
+sonar,DIANA,uci,0.0019,0.0036,0.2735,0.9155
+sonar,Div-GMM,uci,0.0037,0.0139,0.2295,16.1369
+sonar,Div-KMeans,uci,-0.0016,0.0044,0.1971,16.7648
+sonar,Div-KMedoids,uci,0.0036,0.0074,0.1257,2.7012
+sonar,Div-Ward,uci,-0.0017,0.0051,0.2144,1.8595
+sonar,GMM,uci,-0.0013,0.0033,0.228,15.4621
+sonar,Genie (g=0.3),uci,0.0123,0.0322,0.0941,1.3421
+sonar,KMeans,uci,0.0,0.0049,0.2059,16.9279
+sonar,KMedoids,uci,0.0036,0.0074,0.1257,2.3862
+sonar,PDDP,uci,0.0072,0.01,0.1498,2.469
+sonar,Spectral (kNN graph),uci,-0.0041,0.0012,0.1234,6.0413
+sonar,mNN-Divisive (m=10),uci,-0.0002,0.0023,0.2038,0.8181
+varied_density,Agglo-Average,synthetic,0.0135,0.0262,0.4551,7.1811
+varied_density,Agglo-Complete,synthetic,0.1143,0.1086,0.3427,7.1419
+varied_density,Agglo-Single,synthetic,0.0,0.0,0.5057,4.5191
+varied_density,Agglo-Ward,synthetic,0.907,0.0459,0.4766,6.1618
+varied_density,DIANA,synthetic,0.5058,0.0395,0.4782,10.9591
+varied_density,Div-GMM,synthetic,0.9875,0.0041,0.463,23.079
+varied_density,Div-KMeans,synthetic,0.7406,0.0337,0.4885,31.3357
+varied_density,Div-KMedoids,synthetic,0.7825,0.0218,0.4868,30.4147
+varied_density,Div-Ward,synthetic,0.907,0.0459,0.4766,8.0949
+varied_density,GMM,synthetic,0.9875,0.0041,0.463,20.4044
+varied_density,Genie (g=0.3),synthetic,0.9212,0.0382,0.4759,0.7227
+varied_density,KMeans,synthetic,0.7364,0.0353,0.4885,22.7017
+varied_density,KMedoids,synthetic,0.7825,0.0218,0.4868,24.5089
+varied_density,PDDP,synthetic,0.512,0.0167,0.4566,1.9372
+varied_density,Spectral (kNN graph),synthetic,0.9518,0.0135,0.4745,12.4216
+varied_density,mNN-Divisive (m=10),synthetic,0.1578,0.1848,0.4366,10.742
+vertebral,Agglo-Average,uci,-0.0066,0.0109,0.429,1.5938
+vertebral,Agglo-Complete,uci,0.1074,0.1425,0.3186,1.7113
+vertebral,Agglo-Single,uci,-0.0061,0.0011,0.4446,1.2533
+vertebral,Agglo-Ward,uci,0.2332,0.0402,0.2842,1.5685
+vertebral,DIANA,uci,0.2096,0.0405,0.365,2.9566
+vertebral,Div-GMM,uci,0.3916,0.025,0.211,60.0533
+vertebral,Div-KMeans,uci,0.3497,0.0196,0.1849,34.3336
+vertebral,Div-KMedoids,uci,0.2085,0.0123,0.2792,6.71
+vertebral,Div-Ward,uci,0.2927,0.0565,0.2246,3.4889
+vertebral,GMM,uci,0.5172,0.1045,0.2433,42.5128
+vertebral,Genie (g=0.3),uci,0.1843,0.0985,0.2698,0.4403
+vertebral,KMeans,uci,0.2232,0.021,0.2958,17.527
+vertebral,KMedoids,uci,0.2383,0.011,0.2745,4.0589
+vertebral,PDDP,uci,0.3684,0.0243,0.159,0.763
+vertebral,Spectral (kNN graph),uci,0.233,0.0138,0.2803,7.9575
+vertebral,mNN-Divisive (m=10),uci,0.118,0.1523,0.2746,2.6505
+wdbc,Agglo-Average,uci,0.0052,0.0028,0.6395,3.9813
+wdbc,Agglo-Complete,uci,0.0211,0.0533,0.6298,4.0661
+wdbc,Agglo-Single,uci,0.0037,0.0024,0.6592,2.6591
+wdbc,Agglo-Ward,uci,0.6519,0.078,0.3205,4.6385
+wdbc,DIANA,uci,0.3499,0.2397,0.4498,4.0679
+wdbc,Div-GMM,uci,0.7479,0.04,0.3216,44.2196
+wdbc,Div-KMeans,uci,0.6622,0.025,0.3446,25.8338
+wdbc,Div-KMedoids,uci,0.691,0.0658,0.3409,11.2475
+wdbc,Div-Ward,uci,0.6519,0.078,0.3205,6.4856
+wdbc,GMM,uci,0.7471,0.0408,0.3216,39.7292
+wdbc,Genie (g=0.3),uci,0.4468,0.1073,0.3043,3.5941
+wdbc,KMeans,uci,0.6607,0.0235,0.3446,21.9059
+wdbc,KMedoids,uci,0.691,0.0658,0.3409,8.3202
+wdbc,PDDP,uci,0.6945,0.014,0.3219,2.0888
+wdbc,Spectral (kNN graph),uci,0.7588,0.0257,0.3341,12.6388
+wdbc,mNN-Divisive (m=10),uci,0.0755,0.117,0.4175,5.0507
+wine,Agglo-Average,uci,-0.0064,0.0028,0.1626,0.9203
+wine,Agglo-Complete,uci,0.4706,0.1377,0.2051,0.9046
+wine,Agglo-Single,uci,-0.0077,0.0015,0.1883,0.8603
+wine,Agglo-Ward,uci,0.7996,0.0529,0.2747,0.976
+wine,DIANA,uci,0.5502,0.0964,0.2126,2.3573
+wine,Div-GMM,uci,0.6755,0.0836,0.2577,35.4035
+wine,Div-KMeans,uci,0.6622,0.0651,0.2573,30.5338
+wine,Div-KMedoids,uci,0.5823,0.0865,0.2439,3.694
+wine,Div-Ward,uci,0.7996,0.0529,0.2747,2.2192
+wine,GMM,uci,0.7948,0.1449,0.2762,18.0423
+wine,Genie (g=0.3),uci,0.6698,0.1157,0.2502,0.3772
+wine,KMeans,uci,0.8803,0.0345,0.2835,15.7227
+wine,KMedoids,uci,0.7547,0.0539,0.2695,2.2493
+wine,PDDP,uci,0.4806,0.0594,0.2081,0.7139
+wine,Spectral (kNN graph),uci,0.8421,0.0286,0.2817,4.9068
+wine,mNN-Divisive (m=10),uci,0.7477,0.1101,0.2759,1.0687
+wut/circles,Agglo-Average,wut,1.0,0.0,0.5155,53.2333
+wut/circles,Agglo-Complete,wut,0.9618,0.0497,0.5022,50.0916
+wut/circles,Agglo-Single,wut,1.0,0.0,0.5155,41.391
+wut/circles,Agglo-Ward,wut,0.9713,0.0606,0.5067,40.2234
+wut/circles,DIANA,wut,1.0,0.0,0.5155,117.2036
+wut/circles,Div-GMM,wut,1.0,0.0,0.5155,74.1595
+wut/circles,Div-KMeans,wut,1.0,0.0,0.5155,80.8
+wut/circles,Div-KMedoids,wut,0.5607,0.0214,0.3791,482.075
+wut/circles,Div-Ward,wut,0.9713,0.0606,0.5067,82.5292
+wut/circles,GMM,wut,1.0,0.0,0.5155,19.3573
+wut/circles,Genie (g=0.3),wut,1.0,0.0,0.5155,1.7555
+wut/circles,KMeans,wut,1.0,0.0,0.5155,12.1551
+wut/circles,KMedoids,wut,0.5518,0.0619,0.385,213.1503
+wut/circles,PDDP,wut,0.3334,0.0009,0.3368,23.8637
+wut/circles,Spectral (kNN graph),wut,0.939,0.1287,0.4613,56.7761
+wut/circles,mNN-Divisive (m=10),wut,1.0,0.0,0.5155,154.2225
+wut/cross,Agglo-Average,wut,0.0033,0.0054,0.6616,35.5159
+wut/cross,Agglo-Complete,wut,0.0698,0.0516,0.4814,32.6376
+wut/cross,Agglo-Single,wut,0.0,0.0,0.7415,25.661
+wut/cross,Agglo-Ward,wut,0.1182,0.0478,0.535,26.4943
+wut/cross,DIANA,wut,0.1173,0.0122,0.5464,56.2587
+wut/cross,Div-GMM,wut,0.4467,0.0059,0.0975,123.1601
+wut/cross,Div-KMeans,wut,0.1257,0.0061,0.5454,123.7993
+wut/cross,Div-KMedoids,wut,0.2011,0.0065,0.5117,725.5839
+wut/cross,Div-Ward,wut,0.1182,0.0478,0.535,81.4607
+wut/cross,GMM,wut,0.4395,0.0063,0.0104,78.3916
+wut/cross,Genie (g=0.3),wut,0.4533,0.129,0.3743,1.4332
+wut/cross,KMeans,wut,0.1114,0.0044,0.5384,41.5507
+wut/cross,KMedoids,wut,0.1945,0.0184,0.5125,332.7785
+wut/cross,PDDP,wut,0.6544,0.0084,0.3204,19.3141
+wut/cross,Spectral (kNN graph),wut,0.9437,0.09,0.2137,36.8117
+wut/cross,mNN-Divisive (m=10),wut,0.3194,0.0056,0.3578,125.3321
+wut/graph,Agglo-Average,wut,0.4238,0.0144,0.5775,57.3792
+wut/graph,Agglo-Complete,wut,0.3986,0.0134,0.5633,58.0797
+wut/graph,Agglo-Single,wut,0.0901,0.0904,-0.4096,44.8519
+wut/graph,Agglo-Ward,wut,0.4416,0.0199,0.5794,42.8995
+wut/graph,DIANA,wut,0.4193,0.005,0.548,177.2964
+wut/graph,Div-GMM,wut,0.663,0.1168,0.3993,291.0235
+wut/graph,Div-KMeans,wut,0.4196,0.0032,0.545,217.844
+wut/graph,Div-KMedoids,wut,0.4351,0.0043,0.4561,367.3752
+wut/graph,Div-Ward,wut,0.4694,0.0192,0.5178,116.2985
+wut/graph,GMM,wut,0.8631,0.0037,0.352,207.7036
+wut/graph,Genie (g=0.3),wut,0.485,0.0379,0.4208,1.8897
+wut/graph,KMeans,wut,0.4463,0.0044,0.6227,29.9627
+wut/graph,KMedoids,wut,0.4576,0.0041,0.6161,146.6837
+wut/graph,PDDP,wut,0.3543,0.0178,0.1673,30.3509
+wut/graph,Spectral (kNN graph),wut,0.6302,0.013,0.5346,61.0465
+wut/graph,mNN-Divisive (m=10),wut,0.6224,0.0637,0.3254,197.8832
+wut/isolation,Agglo-Average,wut,0.003,0.0024,0.3699,54.4113
+wut/isolation,Agglo-Complete,wut,0.0023,0.0021,0.3694,53.3443
+wut/isolation,Agglo-Single,wut,1.0,0.0,-0.0191,43.2947
+wut/isolation,Agglo-Ward,wut,0.004,0.0029,0.3746,45.8534
+wut/isolation,DIANA,wut,0.0002,0.001,0.3541,98.1749
+wut/isolation,Div-GMM,wut,0.0004,0.0013,0.3607,57.2274
+wut/isolation,Div-KMeans,wut,0.0002,0.0008,0.3583,71.0329
+wut/isolation,Div-KMedoids,wut,0.0,0.0007,0.357,641.4241
+wut/isolation,Div-Ward,wut,0.004,0.0029,0.3746,75.9791
+wut/isolation,GMM,wut,0.0001,0.001,0.4137,22.3562
+wut/isolation,Genie (g=0.3),wut,1.0,0.0,-0.0191,1.8473
+wut/isolation,KMeans,wut,0.0,0.0008,0.416,27.417
+wut/isolation,KMedoids,wut,-0.0001,0.0008,0.4147,157.8567
+wut/isolation,PDDP,wut,0.0005,0.0012,0.3532,19.9121
+wut/isolation,Spectral (kNN graph),wut,0.079,0.0439,0.1382,60.2566
+wut/isolation,mNN-Divisive (m=10),wut,0.2743,0.148,0.0928,160.2558
+wut/labirynth,Agglo-Average,wut,0.3217,0.0498,0.4207,61.0552
+wut/labirynth,Agglo-Complete,wut,0.376,0.0343,0.3973,59.0235
+wut/labirynth,Agglo-Single,wut,0.7343,0.1085,-0.0829,44.079
+wut/labirynth,Agglo-Ward,wut,0.3697,0.0513,0.41,48.7965
+wut/labirynth,DIANA,wut,0.3156,0.0339,0.4109,144.8811
+wut/labirynth,Div-GMM,wut,0.4008,0.0412,0.398,141.9693
+wut/labirynth,Div-KMeans,wut,0.3898,0.0066,0.4215,153.9571
+wut/labirynth,Div-KMedoids,wut,0.2403,0.0139,0.3772,450.8972
+wut/labirynth,Div-Ward,wut,0.3662,0.061,0.3923,101.5979
+wut/labirynth,GMM,wut,0.5437,0.0833,0.2899,164.9042
+wut/labirynth,Genie (g=0.3),wut,0.6163,0.1288,0.242,1.8307
+wut/labirynth,KMeans,wut,0.3013,0.0345,0.4411,30.8109
+wut/labirynth,KMedoids,wut,0.3251,0.0318,0.4383,173.1745
+wut/labirynth,PDDP,wut,0.3903,0.0075,0.3218,27.4992
+wut/labirynth,Spectral (kNN graph),wut,0.6782,0.0362,0.2754,57.3679
+wut/labirynth,mNN-Divisive (m=10),wut,0.4583,0.0845,0.2916,180.9062
+wut/mk1,Agglo-Average,wut,0.9625,0.0083,0.6608,1.5131
+wut/mk1,Agglo-Complete,wut,0.9283,0.0606,0.6442,1.3661
+wut/mk1,Agglo-Single,wut,0.5633,0.0,0.3285,1.1921
+wut/mk1,Agglo-Ward,wut,0.9737,0.0125,0.6623,1.4894
+wut/mk1,DIANA,wut,0.9563,0.0087,0.6592,5.3794
+wut/mk1,Div-GMM,wut,0.9875,0.0,0.6621,25.8772
+wut/mk1,Div-KMeans,wut,0.9763,0.0039,0.6587,32.1089
+wut/mk1,Div-KMedoids,wut,0.9763,0.0039,0.6587,6.607
+wut/mk1,Div-Ward,wut,0.9737,0.0125,0.6623,3.1287
+wut/mk1,GMM,wut,0.985,0.0053,0.6625,13.0986
+wut/mk1,Genie (g=0.3),wut,0.9862,0.004,0.6623,0.3771
+wut/mk1,KMeans,wut,0.9749,0.0,0.6636,16.0457
+wut/mk1,KMedoids,wut,0.9749,0.0,0.6636,3.0223
+wut/mk1,PDDP,wut,0.7151,0.0141,0.4911,0.7347
+wut/mk1,Spectral (kNN graph),wut,0.9749,0.0,0.6636,6.403
+wut/mk1,mNN-Divisive (m=10),wut,0.975,0.0131,0.6618,2.0747
+wut/mk2,Agglo-Average,wut,0.006,0.003,0.3383,11.4838
+wut/mk2,Agglo-Complete,wut,0.0085,0.007,0.3133,10.4134
+wut/mk2,Agglo-Single,wut,0.4731,0.4632,0.0995,7.6127
+wut/mk2,Agglo-Ward,wut,0.0084,0.0068,0.3364,9.4096
+wut/mk2,DIANA,wut,0.0064,0.003,0.3654,17.5637
+wut/mk2,Div-GMM,wut,0.0048,0.0018,0.3654,26.9823
+wut/mk2,Div-KMeans,wut,0.0062,0.0028,0.367,42.3837
+wut/mk2,Div-KMedoids,wut,0.006,0.0017,0.3665,76.4379
+wut/mk2,Div-Ward,wut,0.0084,0.0068,0.3364,11.6796
+wut/mk2,GMM,wut,0.0054,0.0029,0.3645,23.6533
+wut/mk2,Genie (g=0.3),wut,0.6424,0.3723,0.059,0.914
+wut/mk2,KMeans,wut,0.0063,0.0026,0.3671,35.9859
+wut/mk2,KMedoids,wut,0.006,0.0017,0.3665,76.6153
+wut/mk2,PDDP,wut,0.0069,0.0027,0.3672,3.1351
+wut/mk2,Spectral (kNN graph),wut,0.1381,0.016,-0.0772,16.9949
+wut/mk2,mNN-Divisive (m=10),wut,0.0077,0.0092,0.222,15.7922
+wut/mk3,Agglo-Average,wut,0.6656,0.1335,0.4448,4.1308
+wut/mk3,Agglo-Complete,wut,0.7901,0.0501,0.4525,4.0101
+wut/mk3,Agglo-Single,wut,-0.0,0.0,-0.0563,2.7848
+wut/mk3,Agglo-Ward,wut,0.8388,0.0238,0.4676,4.0622
+wut/mk3,DIANA,wut,0.8079,0.0102,0.4639,10.305
+wut/mk3,Div-GMM,wut,0.8622,0.0132,0.4811,33.108
+wut/mk3,Div-KMeans,wut,0.8197,0.0184,0.4656,47.2395
+wut/mk3,Div-KMedoids,wut,0.8396,0.0169,0.4701,16.7541
+wut/mk3,Div-Ward,wut,0.8388,0.0238,0.4676,7.8028
+wut/mk3,GMM,wut,0.8786,0.0114,0.483,16.3221
+wut/mk3,Genie (g=0.3),wut,0.7795,0.0451,0.4521,0.6289
+wut/mk3,KMeans,wut,0.8877,0.0112,0.4838,21.8643
+wut/mk3,KMedoids,wut,0.875,0.0091,0.4802,8.4919
+wut/mk3,PDDP,wut,0.6535,0.0114,0.3904,1.8293
+wut/mk3,Spectral (kNN graph),wut,0.8794,0.0088,0.4823,11.4362
+wut/mk3,mNN-Divisive (m=10),wut,0.7457,0.1434,0.4273,8.1617
+wut/mk4,Agglo-Average,wut,0.13,0.123,0.2512,20.5749
+wut/mk4,Agglo-Complete,wut,0.1067,0.0833,0.2013,20.4564
+wut/mk4,Agglo-Single,wut,0.754,0.262,0.2038,14.2424
+wut/mk4,Agglo-Ward,wut,0.3937,0.0889,0.2777,13.4559
+wut/mk4,DIANA,wut,0.4276,0.016,0.2824,35.0623
+wut/mk4,Div-GMM,wut,0.9868,0.0017,0.1676,74.8682
+wut/mk4,Div-KMeans,wut,0.3992,0.0021,0.2719,60.3298
+wut/mk4,Div-KMedoids,wut,0.3979,0.006,0.273,195.3149
+wut/mk4,Div-Ward,wut,0.4007,0.0906,0.2777,23.8579
+wut/mk4,GMM,wut,0.9898,0.0014,0.1679,42.412
+wut/mk4,Genie (g=0.3),wut,0.8892,0.2336,0.1714,1.2905
+wut/mk4,KMeans,wut,0.3942,0.0208,0.2744,35.2707
+wut/mk4,KMedoids,wut,0.4002,0.0218,0.2779,114.6417
+wut/mk4,PDDP,wut,0.1539,0.0364,0.185,7.3273
+wut/mk4,Spectral (kNN graph),wut,0.9339,0.1393,0.1556,24.2536
+wut/mk4,mNN-Divisive (m=10),wut,0.4791,0.1555,0.2527,54.2661
+wut/olympic,Agglo-Average,wut,0.1365,0.0165,0.3141,59.2745
+wut/olympic,Agglo-Complete,wut,0.1364,0.0176,0.2797,56.739
+wut/olympic,Agglo-Single,wut,0.0003,0.0006,-0.4032,44.4408
+wut/olympic,Agglo-Ward,wut,0.1501,0.0139,0.3232,44.1766
+wut/olympic,DIANA,wut,0.1284,0.0163,0.3102,143.5719
+wut/olympic,Div-GMM,wut,0.1371,0.0148,0.2914,183.3844
+wut/olympic,Div-KMeans,wut,0.1351,0.0112,0.3284,137.8669
+wut/olympic,Div-KMedoids,wut,0.1381,0.0153,0.3122,470.7365
+wut/olympic,Div-Ward,wut,0.1602,0.0248,0.3045,107.8732
+wut/olympic,GMM,wut,0.1065,0.0144,0.3083,109.0811
+wut/olympic,Genie (g=0.3),wut,0.1336,0.0254,0.2424,1.8247
+wut/olympic,KMeans,wut,0.1475,0.0197,0.3741,35.5726
+wut/olympic,KMedoids,wut,0.1634,0.0025,0.376,200.7529
+wut/olympic,PDDP,wut,0.1488,0.0053,0.283,26.0242
+wut/olympic,Spectral (kNN graph),wut,0.1573,0.015,0.2909,63.7585
+wut/olympic,mNN-Divisive (m=10),wut,0.1597,0.0305,0.1641,212.2503
+wut/smile,Agglo-Average,wut,0.5861,0.0888,0.5066,10.0756
+wut/smile,Agglo-Complete,wut,0.5164,0.0109,0.4917,9.5042
+wut/smile,Agglo-Single,wut,0.9889,0.0235,0.3717,6.5992
+wut/smile,Agglo-Ward,wut,0.583,0.0121,0.5924,9.016
+wut/smile,DIANA,wut,0.5343,0.0059,0.4852,29.4525
+wut/smile,Div-GMM,wut,0.5699,0.0497,0.5658,79.1332
+wut/smile,Div-KMeans,wut,0.6023,0.0036,0.5702,97.3295
+wut/smile,Div-KMedoids,wut,0.5548,0.0299,0.4794,70.432
+wut/smile,Div-Ward,wut,0.5693,0.0381,0.5843,19.4456
+wut/smile,GMM,wut,0.5972,0.0307,0.5874,42.099
+wut/smile,Genie (g=0.3),wut,1.0,0.0,0.3614,0.8316
+wut/smile,KMeans,wut,0.5858,0.0236,0.6002,29.47
+wut/smile,KMedoids,wut,0.6108,0.0421,0.5962,27.6549
+wut/smile,PDDP,wut,0.2953,0.01,0.3376,4.7863
+wut/smile,Spectral (kNN graph),wut,0.5885,0.0038,0.5851,15.1383
+wut/smile,mNN-Divisive (m=10),wut,0.5764,0.0527,0.4041,30.2742
+wut/stripes,Agglo-Average,wut,0.1905,0.1901,0.3273,57.1025
+wut/stripes,Agglo-Complete,wut,0.2236,0.185,0.3227,58.0812
+wut/stripes,Agglo-Single,wut,1.0,0.0,0.253,46.2894
+wut/stripes,Agglo-Ward,wut,0.2484,0.168,0.3277,45.5863
+wut/stripes,DIANA,wut,0.225,0.2001,0.3532,75.7556
+wut/stripes,Div-GMM,wut,0.2848,0.1894,0.3559,34.4075
+wut/stripes,Div-KMeans,wut,0.2567,0.2099,0.359,35.3914
+wut/stripes,Div-KMedoids,wut,0.2994,0.1985,0.3574,306.67
+wut/stripes,Div-Ward,wut,0.2484,0.168,0.3277,62.0578
+wut/stripes,GMM,wut,0.2862,0.1916,0.3575,19.9603
+wut/stripes,Genie (g=0.3),wut,1.0,0.0,0.253,1.9265
+wut/stripes,KMeans,wut,0.2575,0.2109,0.359,21.9386
+wut/stripes,KMedoids,wut,0.2994,0.1985,0.3574,291.0203
+wut/stripes,PDDP,wut,0.2272,0.0541,0.3344,15.649
+wut/stripes,Spectral (kNN graph),wut,0.9869,0.0189,0.2554,58.4585
+wut/stripes,mNN-Divisive (m=10),wut,0.1457,0.1378,0.241,106.1971
+wut/trajectories,Agglo-Average,wut,1.0,0.0,0.6489,56.1289
+wut/trajectories,Agglo-Complete,wut,1.0,0.0,0.6489,54.2852
+wut/trajectories,Agglo-Single,wut,1.0,0.0,0.6489,45.9082
+wut/trajectories,Agglo-Ward,wut,1.0,0.0,0.6489,45.6281
+wut/trajectories,DIANA,wut,0.9997,0.0006,0.6489,118.7058
+wut/trajectories,Div-GMM,wut,0.998,0.0022,0.6488,76.4144
+wut/trajectories,Div-KMeans,wut,0.9965,0.0027,0.6484,88.4376
+wut/trajectories,Div-KMedoids,wut,0.5409,0.0102,0.3693,419.1687
+wut/trajectories,Div-Ward,wut,1.0,0.0,0.6489,88.1687
+wut/trajectories,GMM,wut,0.9983,0.0019,0.6487,16.1526
+wut/trajectories,Genie (g=0.3),wut,1.0,0.0,0.6489,1.8337
+wut/trajectories,KMeans,wut,0.9997,0.0006,0.6489,13.7478
+wut/trajectories,KMedoids,wut,0.994,0.0044,0.6482,118.3659
+wut/trajectories,PDDP,wut,0.5772,0.0138,0.4513,24.0982
+wut/trajectories,Spectral (kNN graph),wut,0.909,0.1468,0.5504,61.7138
+wut/trajectories,mNN-Divisive (m=10),wut,0.9548,0.0675,0.6289,175.5916
+wut/trapped_lovers,Agglo-Average,wut,0.0188,0.1332,0.2599,61.4748
+wut/trapped_lovers,Agglo-Complete,wut,0.097,0.1078,0.2451,59.844
+wut/trapped_lovers,Agglo-Single,wut,1.0,0.0,0.0986,45.2355
+wut/trapped_lovers,Agglo-Ward,wut,0.1726,0.0329,0.2886,48.533
+wut/trapped_lovers,DIANA,wut,0.0291,0.015,0.2423,88.2183
+wut/trapped_lovers,Div-GMM,wut,0.1373,0.0034,0.3067,86.2003
+wut/trapped_lovers,Div-KMeans,wut,0.1567,0.0051,0.3152,90.1407
+wut/trapped_lovers,Div-KMedoids,wut,0.1397,0.0026,0.2923,366.0276
+wut/trapped_lovers,Div-Ward,wut,0.164,0.0248,0.2888,79.1096
+wut/trapped_lovers,GMM,wut,0.1382,0.0041,0.3305,41.5312
+wut/trapped_lovers,Genie (g=0.3),wut,1.0,0.0,0.0986,1.9639
+wut/trapped_lovers,KMeans,wut,0.1649,0.0042,0.344,35.069
+wut/trapped_lovers,KMedoids,wut,0.1402,0.0025,0.3373,199.4608
+wut/trapped_lovers,PDDP,wut,0.1486,0.0361,0.2451,19.616
+wut/trapped_lovers,Spectral (kNN graph),wut,1.0,0.0,0.0986,64.4636
+wut/trapped_lovers,mNN-Divisive (m=10),wut,0.1682,0.1253,0.2507,152.0439
+wut/twosplashes,Agglo-Average,wut,0.0101,0.0069,0.5883,2.2189
+wut/twosplashes,Agglo-Complete,wut,0.0268,0.016,0.4628,2.1958
+wut/twosplashes,Agglo-Single,wut,0.0001,0.0001,0.6411,1.7491
+wut/twosplashes,Agglo-Ward,wut,0.1768,0.0691,0.444,2.0015
+wut/twosplashes,DIANA,wut,0.0811,0.044,0.4717,3.0588
+wut/twosplashes,Div-GMM,wut,0.6748,0.034,0.32,24.8628
+wut/twosplashes,Div-KMeans,wut,0.0933,0.0131,0.4618,21.9456
+wut/twosplashes,Div-KMedoids,wut,0.1441,0.018,0.4626,7.7432
+wut/twosplashes,Div-Ward,wut,0.1768,0.0691,0.444,2.866
+wut/twosplashes,GMM,wut,0.6748,0.034,0.32,23.0535
+wut/twosplashes,Genie (g=0.3),wut,1.0,0.0,0.2782,0.4354
+wut/twosplashes,KMeans,wut,0.0933,0.0131,0.4618,20.0047
+wut/twosplashes,KMedoids,wut,0.1441,0.018,0.4626,6.8351
+wut/twosplashes,PDDP,wut,0.0812,0.0113,0.4582,0.7453
+wut/twosplashes,Spectral (kNN graph),wut,1.0,0.0,0.2782,6.6995
+wut/twosplashes,mNN-Divisive (m=10),wut,0.6066,0.5053,0.3856,2.2808
+wut/windows,Agglo-Average,wut,0.0911,0.0089,0.3825,53.5344
+wut/windows,Agglo-Complete,wut,0.0885,0.0093,0.3849,52.5667
+wut/windows,Agglo-Single,wut,1.0,0.0,-0.1257,43.4357
+wut/windows,Agglo-Ward,wut,0.0912,0.0103,0.3807,42.7556
+wut/windows,DIANA,wut,0.0917,0.0079,0.3973,131.8998
+wut/windows,Div-GMM,wut,0.1031,0.0061,0.4126,99.0489
+wut/windows,Div-KMeans,wut,0.1076,0.0055,0.4135,118.5693
+wut/windows,Div-KMedoids,wut,0.1,0.0131,0.3984,351.2917
+wut/windows,Div-Ward,wut,0.0895,0.0088,0.3797,93.8032
+wut/windows,GMM,wut,0.1377,0.0128,0.3478,77.3585
+wut/windows,Genie (g=0.3),wut,0.4255,0.1505,0.0892,1.7891
+wut/windows,KMeans,wut,0.0796,0.0033,0.4051,27.9005
+wut/windows,KMedoids,wut,0.0948,0.0089,0.4119,156.4966
+wut/windows,PDDP,wut,0.0412,0.0033,0.2641,26.0491
+wut/windows,Spectral (kNN graph),wut,1.0,0.0,-0.1257,59.853
+wut/windows,mNN-Divisive (m=10),wut,0.1389,0.0919,0.2083,172.1868
+wut/x1,Agglo-Average,wut,1.0,0.0,0.7335,0.7329
+wut/x1,Agglo-Complete,wut,1.0,0.0,0.7335,0.7328
+wut/x1,Agglo-Single,wut,1.0,0.0,0.7335,0.7067
+wut/x1,Agglo-Ward,wut,1.0,0.0,0.7335,0.6987
+wut/x1,DIANA,wut,0.9419,0.0162,0.7194,1.9231
+wut/x1,Div-GMM,wut,0.9792,0.0179,0.725,23.3
+wut/x1,Div-KMeans,wut,0.9454,0.0237,0.7206,31.619
+wut/x1,Div-KMedoids,wut,0.9723,0.0146,0.7298,2.9377
+wut/x1,Div-Ward,wut,1.0,0.0,0.7335,1.7664
+wut/x1,GMM,wut,1.0,0.0,0.7335,10.9114
+wut/x1,Genie (g=0.3),wut,1.0,0.0,0.7335,0.22
+wut/x1,KMeans,wut,1.0,0.0,0.7335,16.1254
+wut/x1,KMedoids,wut,1.0,0.0,0.7335,1.5134
+wut/x1,PDDP,wut,0.8387,0.0341,0.6762,0.5066
+wut/x1,Spectral (kNN graph),wut,1.0,0.0,0.7335,4.389
+wut/x1,mNN-Divisive (m=10),wut,0.9896,0.0167,0.7321,0.6909
+wut/x2,Agglo-Average,wut,0.4695,0.0246,0.5682,0.7351
+wut/x2,Agglo-Complete,wut,0.4983,0.047,0.5666,0.7842
+wut/x2,Agglo-Single,wut,0.0,0.0,0.1074,0.7104
+wut/x2,Agglo-Ward,wut,0.5356,0.0819,0.5569,0.7264
+wut/x2,DIANA,wut,0.5251,0.0272,0.5763,1.2776
+wut/x2,Div-GMM,wut,0.9028,0.0325,0.4233,33.6907
+wut/x2,Div-KMeans,wut,0.8984,0.0193,0.4442,32.6006
+wut/x2,Div-KMedoids,wut,0.9057,0.015,0.443,3.3435
+wut/x2,Div-Ward,wut,0.8769,0.0512,0.4352,1.8739
+wut/x2,GMM,wut,0.8509,0.144,0.4314,23.0018
+wut/x2,Genie (g=0.3),wut,0.8974,0.0152,0.4414,0.2584
+wut/x2,KMeans,wut,0.5323,0.023,0.5783,16.8774
+wut/x2,KMedoids,wut,0.8659,0.1207,0.4556,2.3127
+wut/x2,PDDP,wut,0.7937,0.0358,0.404,0.5586
+wut/x2,Spectral (kNN graph),wut,0.9021,0.0159,0.4435,4.8585
+wut/x2,mNN-Divisive (m=10),wut,0.688,0.2232,0.4352,0.7839
+wut/x3,Agglo-Average,wut,0.9137,0.0211,0.5063,0.9564
+wut/x3,Agglo-Complete,wut,0.7663,0.1854,0.4779,0.9634
+wut/x3,Agglo-Single,wut,0.0566,0.1164,0.0348,0.8435
+wut/x3,Agglo-Ward,wut,0.8689,0.0885,0.4926,0.9064
+wut/x3,DIANA,wut,0.9415,0.0194,0.4898,2.0913
+wut/x3,Div-GMM,wut,0.8229,0.0403,0.4907,55.6669
+wut/x3,Div-KMeans,wut,0.829,0.1246,0.4753,48.0449
+wut/x3,Div-KMedoids,wut,0.8129,0.0595,0.4501,5.6715
+wut/x3,Div-Ward,wut,0.8689,0.0885,0.4926,2.9105
+wut/x3,GMM,wut,0.8857,0.0307,0.4554,31.0578
+wut/x3,Genie (g=0.3),wut,0.8897,0.0221,0.4828,0.2984
+wut/x3,KMeans,wut,0.8687,0.0371,0.5098,17.2696
+wut/x3,KMedoids,wut,0.8663,0.0476,0.5116,3.2192
+wut/x3,PDDP,wut,0.503,0.0177,0.2972,0.6775
+wut/x3,Spectral (kNN graph),wut,0.9129,0.0264,0.5039,5.2288
+wut/x3,mNN-Divisive (m=10),wut,0.7954,0.1002,0.4955,1.5719
+wut/z1,Agglo-Average,wut,0.0889,0.0594,0.3529,0.9626
+wut/z1,Agglo-Complete,wut,0.2049,0.0292,0.3223,0.994
+wut/z1,Agglo-Single,wut,0.0301,0.0221,0.0623,0.9251
+wut/z1,Agglo-Ward,wut,0.1061,0.0382,0.355,0.934
+wut/z1,DIANA,wut,0.08,0.0454,0.3764,2.6284
+wut/z1,Div-GMM,wut,0.0594,0.0098,0.3708,31.8874
+wut/z1,Div-KMeans,wut,0.0777,0.0176,0.3699,32.8437
+wut/z1,Div-KMedoids,wut,0.1197,0.0145,0.362,4.758
+wut/z1,Div-Ward,wut,0.1018,0.0408,0.3504,2.2103
+wut/z1,GMM,wut,0.0396,0.0431,0.3507,25.717
+wut/z1,Genie (g=0.3),wut,0.0847,0.0715,0.2351,0.3094
+wut/z1,KMeans,wut,0.1311,0.0353,0.4052,16.99
+wut/z1,KMedoids,wut,0.1468,0.0224,0.3928,2.8571
+wut/z1,PDDP,wut,0.0738,0.0078,0.3338,0.6011
+wut/z1,Spectral (kNN graph),wut,0.1622,0.0207,0.3751,5.6113
+wut/z1,mNN-Divisive (m=10),wut,0.0726,0.0863,0.2763,1.219
+wut/z2,Agglo-Average,wut,0.5408,0.0965,0.4343,9.0245
+wut/z2,Agglo-Complete,wut,0.4181,0.1312,0.3559,9.1629
+wut/z2,Agglo-Single,wut,0.637,0.1009,0.245,6.013
+wut/z2,Agglo-Ward,wut,0.4371,0.0614,0.4194,7.4067
+wut/z2,DIANA,wut,0.4797,0.0088,0.4393,29.1184
+wut/z2,Div-GMM,wut,0.5181,0.0595,0.4099,87.0722
+wut/z2,Div-KMeans,wut,0.4323,0.0234,0.4231,84.5719
+wut/z2,Div-KMedoids,wut,0.3642,0.0618,0.3816,57.5607
+wut/z2,Div-Ward,wut,0.4371,0.0614,0.4194,19.9137
+wut/z2,GMM,wut,1.0,0.0,0.2948,63.5152
+wut/z2,Genie (g=0.3),wut,0.5149,0.0668,0.382,0.7885
+wut/z2,KMeans,wut,0.4324,0.0076,0.4553,32.468
+wut/z2,KMedoids,wut,0.4245,0.0343,0.4404,22.8973
+wut/z2,PDDP,wut,0.3842,0.0076,0.3924,3.9893
+wut/z2,Spectral (kNN graph),wut,0.5903,0.037,0.4142,14.6284
+wut/z2,mNN-Divisive (m=10),wut,0.5247,0.0748,0.3636,28.6375
+wut/z3,Agglo-Average,wut,0.994,0.0107,0.5792,10.5906
+wut/z3,Agglo-Complete,wut,0.9511,0.0485,0.5633,10.052
+wut/z3,Agglo-Single,wut,0.7058,0.2062,0.3528,6.7237
+wut/z3,Agglo-Ward,wut,0.9832,0.0197,0.5776,8.7869
+wut/z3,DIANA,wut,0.9955,0.0032,0.5799,24.2913
+wut/z3,Div-GMM,wut,0.9955,0.0021,0.5807,42.2638
+wut/z3,Div-KMeans,wut,1.0,0.0,0.5806,65.936
+wut/z3,Div-KMedoids,wut,0.9997,0.0009,0.5806,64.479
+wut/z3,Div-Ward,wut,0.7068,0.0266,0.3953,21.1289
+wut/z3,GMM,wut,0.9955,0.0021,0.5807,17.774
+wut/z3,Genie (g=0.3),wut,0.789,0.1068,0.4411,0.8513
+wut/z3,KMeans,wut,1.0,0.0,0.5806,25.7018
+wut/z3,KMedoids,wut,0.9997,0.0009,0.5806,24.7966
+wut/z3,PDDP,wut,0.8135,0.0041,0.5114,4.566
+wut/z3,Spectral (kNN graph),wut,0.9712,0.0212,0.5695,16.0826
+wut/z3,mNN-Divisive (m=10),wut,0.7699,0.1605,0.4374,24.1426
+yeast,Agglo-Average,uci,0.011,0.0079,0.296,20.2093
+yeast,Agglo-Complete,uci,0.091,0.0258,0.1222,24.9491
+yeast,Agglo-Single,uci,0.0097,0.0018,0.4848,14.6115
+yeast,Agglo-Ward,uci,0.167,0.0117,0.1574,15.7979
+yeast,DIANA,uci,0.1369,0.0242,0.1932,87.3612
+yeast,Div-GMM,uci,0.1153,0.0215,0.0157,327.2249
+yeast,Div-KMeans,uci,0.1196,0.0143,0.103,253.3737
+yeast,Div-KMedoids,uci,0.1211,0.0223,0.0706,140.3195
+yeast,Div-Ward,uci,0.148,0.0124,0.1106,99.7671
+yeast,GMM,uci,0.0546,0.0313,-0.0323,285.4361
+yeast,Genie (g=0.3),uci,0.1562,0.0279,0.0077,1.5816
+yeast,KMeans,uci,0.1806,0.0102,0.2016,50.6264
+yeast,KMedoids,uci,0.155,0.0358,0.1605,30.9007
+yeast,PDDP,uci,0.0878,0.01,0.062,12.8139
+yeast,Spectral (kNN graph),uci,0.1595,0.0098,0.1765,56.8572
+yeast,mNN-Divisive (m=10),uci,0.1275,0.0632,0.0568,197.2056
+zoo,Agglo-Average,uci,0.889,0.0713,0.3802,0.632
+zoo,Agglo-Complete,uci,0.8171,0.1095,0.3632,0.6488
+zoo,Agglo-Single,uci,0.571,0.2639,0.2776,0.6633
+zoo,Agglo-Ward,uci,0.7633,0.0754,0.3639,0.6353
+zoo,DIANA,uci,0.7992,0.0448,0.3758,1.8374
+zoo,Div-GMM,uci,0.5424,0.0556,0.2977,69.899
+zoo,Div-KMeans,uci,0.5022,0.0943,0.3423,96.0072
+zoo,Div-KMedoids,uci,0.5049,0.0293,0.2649,5.4342
+zoo,Div-Ward,uci,0.4932,0.02,0.3376,3.5033
+zoo,GMM,uci,0.702,0.1186,0.3375,23.3861
+zoo,Genie (g=0.3),uci,0.7396,0.0614,0.3505,0.2893
+zoo,KMeans,uci,0.7246,0.0674,0.3504,19.3298
+zoo,KMedoids,uci,0.6008,0.0737,0.2952,2.7762
+zoo,PDDP,uci,0.5596,0.0112,0.3295,1.0093
+zoo,Spectral (kNN graph),uci,0.5035,0.0405,0.3296,4.6209
+zoo,mNN-Divisive (m=10),uci,0.5748,0.0524,0.3309,1.3318
