@@ -40,7 +40,7 @@ costs `O(s²)` time; the full matrix needs `O(n²)` memory.
 ## Installation
 
 ```bash
-git clone https://github.com/<user>/mnn-divisive.git
+git clone https://github.com/alagoz/mnn-divisive.git
 cd mnn-divisive
 pip install -r requirements.txt
 ```
