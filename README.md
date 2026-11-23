@@ -174,7 +174,7 @@ If you use this code, please cite the paper (details will be updated on publicat
 
 ```bibtex
 @article{eman2026mnndivisive,
-  author  = {Eman, Isha and Alag{\"o}z, Celal and Aadil, Farhan and Sardaraz, Muhammad},
+  author  = {Alag{\"o}z, Celal and Eman, Isha and Aadil, Farhan and Sardaraz, Muhammad},
   title   = {{mNN-Divisive}: Deterministic Divisive Hierarchical Clustering by Group-Wise Nearest-Neighbour Growing},
   journal = {Submitted},
   year    = {2026}
